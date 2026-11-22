@@ -417,15 +417,21 @@ _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 from accroches import ACCROCHES
 for _a in acts:
     if _a["id"] in ACCROCHES:
+        # Description courte pour la liste des envies ; description détaillée pour la fiche
+        _a["resume"] = _a["description"]
         _a["description"], _a["photo"] = ACCROCHES[_a["id"]]
 
 # ---------------------------------------------------------------------------
 # Version, date de vérification et journal des changements (affiché dans l'appli : « Informations mises à jour »)
 # À chaque publication : incrémenter VERSION, mettre VERIFIE à la date du jour, ajouter une entrée à CHANGEMENTS.
 # ---------------------------------------------------------------------------
-VERSION = 11
+VERSION = 12
 VERIFIE = "2026-11-22"
 CHANGEMENTS = [
+ {"version":12,"date":"2026-11-22","textes":[
+   "Liste des envies : description courte pour chaque visite, description détaillée dans la fiche.",
+   "Photos des villes et des adresses « Manger & sortir » ajoutées pour la carte et les vignettes.",
+ ]},
  {"version":11,"date":"2026-11-22","textes":[
    "Nouvelles descriptions pour les 102 suggestions de visites, et photos des lieux téléchargeables (carte interactive).",
  ]},

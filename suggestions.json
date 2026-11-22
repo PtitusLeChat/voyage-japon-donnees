@@ -1,7 +1,15 @@
 {
- "version": 11,
+ "version": 12,
  "verifie": "2026-11-22",
  "changements": [
+  {
+   "version": 12,
+   "date": "2026-11-22",
+   "textes": [
+    "Liste des envies : description courte pour chaque visite, description détaillée dans la fiche.",
+    "Photos des villes et des adresses « Manger & sortir » ajoutées pour la carte et les vignettes."
+   ]
+  },
   {
    "version": 11,
    "date": "2026-11-22",
@@ -357,6 +365,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Plus spectaculaire à la tombée de la nuit.",
+   "resume": "Néons, canal et street food (takoyaki, kushikatsu).",
    "photo": "Dōtonbori"
   },
   {
@@ -373,6 +382,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Donjon-musée et grand parc autour des douves.",
    "photo": "Château d'Osaka"
   },
   {
@@ -389,6 +399,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Billets en ligne conseillés pour éviter la file.",
+   "resume": "Un des plus grands aquariums du monde, avec un requin-baleine.",
    "photo": "Kaiyukan"
   },
   {
@@ -405,6 +416,7 @@
    "reservation": true,
    "tampon": false,
    "conseil": "Super Nintendo World : prévoir un billet daté et un accès à horaire.",
+   "resume": "Parc d'attractions avec Super Nintendo World.",
    "photo": "Universal Studios Japan"
   },
   {
@@ -421,6 +433,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Quartier rétro des années 1920, ambiance populaire.",
    "photo": "Shinsekai"
   },
   {
@@ -437,6 +450,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Venir le matin, beaucoup d'étals ferment tôt.",
+   "resume": "Marché couvert : fruits de mer et en-cas à goûter sur place.",
    "photo": "Kuromon Ichiba"
   },
   {
@@ -453,6 +467,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Magnifique au coucher du soleil.",
+   "resume": "Observatoire en plein air entre deux tours.",
    "photo": "Umeda Sky Building"
   },
   {
@@ -469,6 +484,7 @@
    "reservation": true,
    "tampon": false,
    "conseil": "À 30 min du centre ; certains ateliers se réservent.",
+   "resume": "Créer et décorer son propre pot de nouilles.",
    "photo": "Musée des nouilles instantanées Momofuku Andō"
   },
   {
@@ -485,6 +501,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Un des plus anciens sanctuaires, pont rouge en arc.",
    "photo": "Sumiyoshi-taisha"
   },
   {
@@ -501,6 +518,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "Arriver tôt le matin pour éviter la foule.",
+   "resume": "Des milliers de torii orange sur la montagne.",
    "photo": "Fushimi Inari-taisha"
   },
   {
@@ -517,6 +535,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Pavillon recouvert de feuille d'or au bord d'un étang.",
    "photo": "Kinkaku-ji"
   },
   {
@@ -533,6 +552,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "La bambouseraie est plus calme avant 8 h.",
+   "resume": "Forêt de bambous, pont Togetsukyo et temple Tenryu-ji.",
    "photo": "Arashiyama"
   },
   {
@@ -549,6 +569,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "À combiner avec Arashiyama.",
+   "resume": "Montée de 20 min pour approcher des macaques et voir Kyoto d'en haut.",
    "photo": "Iwatayama"
   },
   {
@@ -565,6 +586,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Temple sur pilotis et ruelles pavées commerçantes.",
    "photo": "Kiyomizu-dera"
   },
   {
@@ -581,6 +603,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "En fin de journée ; ne pas photographier les geiko de près.",
+   "resume": "Maisons de thé en bois et ruelle Hanamikoji.",
    "photo": "Gion"
   },
   {
@@ -597,6 +620,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "« La cuisine de Kyoto » : 400 m d'étals couverts.",
    "photo": "Marché Nishiki"
   },
   {
@@ -613,6 +637,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Pavillon d'argent, jardin de sable et balade le long d'un canal.",
    "photo": "Ginkaku-ji"
   },
   {
@@ -629,6 +654,7 @@
    "reservation": true,
    "tampon": false,
    "conseil": "Réserver la location ; tailles enfant disponibles.",
+   "resume": "Location de kimono pour la journée dans le vieux Kyoto.",
    "photo": "Kimono"
   },
   {
@@ -645,6 +671,7 @@
    "reservation": true,
    "tampon": false,
    "conseil": "",
+   "resume": "Initiation au rituel du thé matcha.",
    "photo": "Cérémonie du thé japonaise"
   },
   {
@@ -661,6 +688,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Idéal par temps de pluie.",
+   "resume": "Shinkansen, locomotives à vapeur et simulateurs.",
    "photo": "Musée ferroviaire de Kyoto"
   },
   {
@@ -677,6 +705,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Des milliers de mangas à lire sur place.",
    "photo": "Kyoto International Manga Museum"
   },
   {
@@ -693,6 +722,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Décors de films d'époque, spectacles de ninjas et samouraïs.",
    "photo": "Toei Kyoto Studio Park"
   },
   {
@@ -709,6 +739,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Résidence du shogun aux parquets « rossignol » qui chantent.",
    "photo": "Château de Nijō"
   },
   {
@@ -725,6 +756,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Ranger cartes et papiers : les daims les mangent.",
+   "resume": "Plus de 1 000 daims en liberté qui saluent pour des biscuits.",
    "photo": "Parc de Nara"
   },
   {
@@ -741,6 +773,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "Passer dans le trou du pilier porterait chance.",
+   "resume": "Immense statue en bronze dans un gigantesque bâtiment en bois.",
    "photo": "Tōdai-ji"
   },
   {
@@ -757,6 +790,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Sanctuaire aux milliers de lanternes.",
    "photo": "Kasuga-taisha"
   },
   {
@@ -773,6 +807,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Le pavillon du Phénix, gravé sur la pièce de 10 yens.",
    "photo": "Byōdō-in"
   },
   {
@@ -794,6 +829,7 @@
     "mois": 3,
     "note": "Inscription au tirage au sort pendant le mois indiqué (compte Nintendo)."
    },
+   "resume": "Histoire de Nintendo et jeux interactifs géants.",
    "photo": "Nintendo Museum"
   },
   {
@@ -810,6 +846,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Maisons de thé historiques le long de la rivière Uji.",
    "photo": "Uji (Kyoto)"
   },
   {
@@ -826,6 +863,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "Beaucoup d'escaliers raides à l'intérieur.",
+   "resume": "Le « Héron blanc », château original classé à l'UNESCO.",
    "photo": "Château de Himeji"
   },
   {
@@ -842,6 +880,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "Certaines salles sont éprouvantes : à préparer avec un enfant.",
+   "resume": "Parc, dôme de Genbaku et musée sur la bombe atomique.",
    "photo": "Mémorial pour la paix d'Hiroshima"
   },
   {
@@ -858,6 +897,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Immeuble entier de comptoirs d'okonomiyaki.",
    "photo": "Okonomiyaki"
   },
   {
@@ -874,6 +914,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Château reconstruit, musée sur les samouraïs.",
    "photo": "Château de Hiroshima"
   },
   {
@@ -890,6 +931,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "Vérifier les horaires des marées : à marée basse on marche jusqu'au torii.",
+   "resume": "Le célèbre torii qui semble flotter à marée haute.",
    "photo": "Itsukushima-jinja"
   },
   {
@@ -906,6 +948,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Téléphérique et randonnée jusqu'au sommet, vue sur la mer intérieure.",
    "photo": "Mont Misen"
   },
   {
@@ -922,6 +965,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Un des trois plus beaux jardins du Japon.",
    "photo": "Kenroku-en"
   },
   {
@@ -938,6 +982,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Quartier de maisons de thé ; glaces à la feuille d'or.",
    "photo": "Higashi Chaya"
   },
   {
@@ -954,6 +999,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Art contemporain ludique, dont la célèbre « piscine ».",
    "photo": "Musée d'art contemporain du XXIe siècle de Kanazawa"
   },
   {
@@ -970,6 +1016,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Marché aux poissons et bols de fruits de mer.",
    "photo": "Marché Ōmichō"
   },
   {
@@ -986,6 +1033,7 @@
    "reservation": true,
    "tampon": true,
    "conseil": "Visite guidée uniquement, sur réservation.",
+   "resume": "Pièges, passages secrets et escaliers cachés.",
    "photo": "Myōryū-ji"
   },
   {
@@ -1002,6 +1050,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Bus depuis Takayama ou Kanazawa : réserver le trajet.",
+   "resume": "Fermes gassho aux grands toits de chaume, classées UNESCO.",
    "photo": "Shirakawa-gō"
   },
   {
@@ -1018,6 +1067,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Rues de maisons marchandes en bois et brasseries de saké.",
    "photo": "Takayama"
   },
   {
@@ -1034,6 +1084,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Le matin uniquement.",
+   "resume": "Marché le long de la rivière : fruits, pickles, artisanat.",
    "photo": "Takayama"
   },
   {
@@ -1050,6 +1101,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Village-musée de maisons traditionnelles de montagne.",
    "photo": "Hida no Sato"
   },
   {
@@ -1066,6 +1118,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "Le Hakone Free Pass couvre la boucle.",
+   "resume": "Train de montagne, téléphérique, Owakudani et bateau pirate sur le lac Ashi.",
    "photo": "Hakone"
   },
   {
@@ -1082,6 +1135,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Sculptures géantes dans un parc, structures à escalader pour les enfants.",
    "photo": "Musée en plein air de Hakone"
   },
   {
@@ -1098,6 +1152,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Les tatouages peuvent être refusés ; privilégier un bain privatif.",
+   "resume": "Sources chaudes en ryokan ou bains publics.",
    "photo": "Onsen"
   },
   {
@@ -1114,6 +1169,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "Près de 400 marches ; le Fuji est souvent caché en juin.",
+   "resume": "La vue de carte postale : pagode rouge et mont Fuji.",
    "photo": "Pagode Chūreitō"
   },
   {
@@ -1130,6 +1186,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Vélo, téléphérique Kachi Kachi et bords du lac.",
    "photo": "Lac Kawaguchi"
   },
   {
@@ -1146,6 +1203,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Vérifier les tailles minimales des attractions.",
+   "resume": "Parc aux montagnes russes records.",
    "photo": "Fuji-Q Highland"
   },
   {
@@ -1162,6 +1220,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Plus ancien temple de Tokyo et allée de boutiques.",
    "photo": "Sensō-ji"
   },
   {
@@ -1178,6 +1237,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Le passage piéton le plus célèbre du monde.",
    "photo": "Carrefour de Shibuya"
   },
   {
@@ -1200,6 +1260,7 @@
     "heure": "00:00",
     "note": "Délai variable selon les sources (2 à 4 semaines) : vérifier sur le site officiel."
    },
+   "resume": "Toit-terrasse vitré à 230 m au-dessus de Shibuya.",
    "photo": "Shibuya Scramble Square"
   },
   {
@@ -1216,6 +1277,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Rue Takeshita colorée puis forêt du sanctuaire Meiji.",
    "photo": "Meiji-jingū"
   },
   {
@@ -1232,6 +1294,7 @@
    "reservation": true,
    "tampon": false,
    "conseil": "Ouvert jusqu'à fin 2027 ; billets à horaire.",
+   "resume": "Musée immersif où l'on marche pieds nus dans l'eau et la lumière.",
    "photo": "teamLab Planets"
   },
   {
@@ -1248,6 +1311,7 @@
    "reservation": true,
    "tampon": false,
    "conseil": "Billets à horaire.",
+   "resume": "Œuvres numériques sans frontières qui se déplacent de salle en salle.",
    "photo": "teamLab Borderless"
   },
   {
@@ -1271,6 +1335,7 @@
     "heure": "10:00",
     "note": "Lawson Ticket, vente pour tout le mois suivant."
    },
+   "resume": "L'univers de Miyazaki, court-métrage exclusif.",
    "photo": "Musée Ghibli"
   },
   {
@@ -1287,6 +1352,7 @@
    "reservation": true,
    "tampon": false,
    "conseil": "Billets datés à réserver.",
+   "resume": "Décors et costumes des films (Warner Bros. Studio Tour Tokyo).",
    "photo": "Warner Bros. Studio Tour Tokyo"
   },
   {
@@ -1309,6 +1375,7 @@
     "heure": "14:00",
     "note": "Site ou appli officielle Tokyo Disney Resort, ou Klook."
    },
+   "resume": "Parc Disney unique au monde, très apprécié des familles.",
    "photo": "Tokyo DisneySea"
   },
   {
@@ -1331,6 +1398,7 @@
     "heure": "14:00",
     "note": "Site ou appli officielle Tokyo Disney Resort, ou Klook."
    },
+   "resume": "Le parc Disney classique.",
    "photo": "Tokyo Disneyland"
   },
   {
@@ -1347,6 +1415,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Jeux vidéo, manga, salles d'arcade.",
    "photo": "Akihabara"
   },
   {
@@ -1363,6 +1432,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "La grande boutique Pokémon (Ikebukuro).",
    "photo": "Pokémon Center"
   },
   {
@@ -1379,6 +1449,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Le matin.",
+   "resume": "Sushis, omelette tamagoyaki et brochettes de la mer.",
    "photo": "Marché de Tsukiji"
   },
   {
@@ -1395,6 +1466,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Grand parc, musées et zoo.",
    "photo": "Parc d'Ueno"
   },
   {
@@ -1411,6 +1483,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "La plus haute tour du Japon (634 m).",
    "photo": "Tokyo Skytree"
   },
   {
@@ -1427,6 +1500,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Île artificielle : Gundam géant, front de mer, centres de loisirs.",
    "photo": "Odaiba"
   },
   {
@@ -1443,6 +1517,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Parfait un jour de pluie.",
+   "resume": "Musée des sciences et des robots.",
    "photo": "Miraikan"
   },
   {
@@ -1459,6 +1534,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Grand jardin aux styles japonais, anglais et français.",
    "photo": "Shinjuku Gyoen"
   },
   {
@@ -1475,6 +1551,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "En début de soirée avec un enfant.",
+   "resume": "Ruelles d'Omoide Yokocho, néons et tête de Godzilla.",
    "photo": "Shinjuku"
   },
   {
@@ -1492,6 +1569,7 @@
    "tampon": false,
    "conseil": "Pas de tournoi à Tokyo en juin : passer par une visite réservée.",
    "heure": "07:30",
+   "resume": "Assister à l'entraînement matinal d'une écurie de sumo.",
    "photo": "Sumo"
   },
   {
@@ -1508,6 +1586,7 @@
    "reservation": true,
    "tampon": false,
    "conseil": "",
+   "resume": "Préparer sushis ou bento en famille.",
    "photo": "Cuisine japonaise"
   },
   {
@@ -1524,6 +1603,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Bouddha en bronze de 13 m, en plein air.",
    "photo": "Grand Bouddha de Kamakura"
   },
   {
@@ -1540,6 +1620,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "Pleine floraison des hortensias en juin : affluence.",
+   "resume": "Temple à flanc de colline, célèbre pour ses hortensias en juin.",
    "photo": "Hase-dera (Kamakura)"
   },
   {
@@ -1556,6 +1637,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Île avec grottes, sanctuaires et phare.",
    "photo": "Enoshima"
   },
   {
@@ -1572,6 +1654,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Sanctuaire richement décoré, singes de la sagesse.",
    "photo": "Nikkō Tōshō-gū"
   },
   {
@@ -1588,6 +1671,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Cascade de 97 m et lac de montagne.",
    "photo": "Chutes de Kegon"
   },
   {
@@ -1604,6 +1688,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Village d'époque Edo avec ninjas, samouraïs et spectacles.",
    "photo": "Edo Wonderland Nikko Edomura"
   },
   {
@@ -1627,6 +1712,7 @@
     "heure": "14:00",
     "note": "Lawson Ticket ou Klook (vente internationale)."
    },
+   "resume": "Les univers de Totoro, Mononoké, Kiki… dont le Grand Entrepôt.",
    "photo": "Parc Ghibli"
   },
   {
@@ -1643,6 +1729,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Idéal par temps de pluie.",
+   "resume": "Musée des trains : Shinkansen, train à sustentation magnétique, simulateurs.",
    "photo": "SCMaglev and Railway Park"
   },
   {
@@ -1659,6 +1746,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Plutôt pour les moins de 12 ans.",
+   "resume": "Parc Lego : attractions et Miniland du Japon en briques.",
    "photo": "Legoland Japan"
   },
   {
@@ -1675,6 +1763,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Château aux dauphins dorés et palais Honmaru.",
    "photo": "Château de Nagoya"
   },
   {
@@ -1691,6 +1780,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Galeries commerçantes, street food et temple Osu Kannon.",
    "photo": "Ōsu (Nagoya)"
   },
   {
@@ -1707,6 +1797,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Grand sanctuaire dans une forêt de camphriers.",
    "photo": "Atsuta-jingū"
   },
   {
@@ -1723,6 +1814,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Grand temple : passage dans le noir sous l'autel pour trouver la « clé du paradis ».",
    "photo": "Zenkō-ji"
   },
   {
@@ -1739,6 +1831,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Bus depuis Nagano puis 30 min de marche en forêt ; en juin les singes vont moins dans l'eau.",
+   "resume": "Macaques qui se baignent dans les sources chaudes (présents toute l'année).",
    "photo": "Jigokudani Yaen-kōen"
   },
   {
@@ -1755,6 +1848,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "Bus depuis la gare de Nagano (~1 h).",
+   "resume": "Allée de cèdres géants, sanctuaire et musée ninja.",
    "photo": "Togakushi"
   },
   {
@@ -1771,6 +1865,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Un des rares châteaux d'origine, surnommé le « château du corbeau ».",
    "photo": "Château de Matsumoto"
   },
   {
@@ -1787,6 +1882,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Rues d'entrepôts blancs et allée des grenouilles.",
    "photo": "Matsumoto"
   },
   {
@@ -1803,6 +1899,7 @@
    "reservation": true,
    "tampon": false,
    "conseil": "Réserver, surtout le soir.",
+   "resume": "Teppanyaki de bœuf de Kobe.",
    "photo": "Bœuf de Kobe"
   },
   {
@@ -1819,6 +1916,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Promenade, grande roue et Kobe Port Tower.",
    "photo": "Harborland"
   },
   {
@@ -1835,6 +1933,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Anciennes maisons des marchands étrangers sur la colline.",
    "photo": "Kitano-chō"
   },
   {
@@ -1851,6 +1950,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "Parfait un jour de pluie.",
+   "resume": "Parc animalier couvert : capybaras, oiseaux, kangourous.",
    "photo": "Kobe Animal Kingdom"
   },
   {
@@ -1867,6 +1967,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Forêt de cèdres et 200 000 tombes jusqu'au mausolée de Kobo Daishi.",
    "photo": "Okunoin"
   },
   {
@@ -1883,6 +1984,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Siège du bouddhisme Shingon et grand jardin de pierres.",
    "photo": "Kongōbu-ji"
   },
   {
@@ -1899,6 +2001,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Créer son pot de nouilles et parcourir l'histoire des ramen instantanés.",
    "photo": "Cupnoodles Museum"
   },
   {
@@ -1915,6 +2018,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Le plus grand quartier chinois du Japon, brioches à la vapeur.",
    "photo": "Chinatown de Yokohama"
   },
   {
@@ -1931,6 +2035,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "",
+   "resume": "Front de mer, grande roue Cosmo World et entrepôts en briques rouges.",
    "photo": "Minato Mirai 21"
   },
   {
@@ -1947,6 +2052,7 @@
    "reservation": false,
    "tampon": true,
    "conseil": "",
+   "resume": "Maisons-entrepôts kurazukuri, tour de la cloche et ruelle des bonbons.",
    "photo": "Kawagoe"
   },
   {
@@ -1969,6 +2075,7 @@
     "heure": "18:00",
     "note": "Ouverture environ 1 mois avant à 18 h (heure du Japon), parfois par périodes : vérifier le site officiel."
    },
+   "resume": "Plats et desserts Pokémon, visite de Pikachu, à côté du Pokémon Center DX (Nihonbashi).",
    "photo": "Pokémon Café"
   },
   {
@@ -1991,6 +2098,7 @@
     "heure": "18:00",
     "note": "Ouverture environ 1 mois avant à 18 h (heure du Japon), parfois par périodes : vérifier le site officiel."
    },
+   "resume": "Café Pokémon au 9e étage du Daimaru Shinsaibashi, avec le Pokémon Center.",
    "photo": "Pokémon Café"
   },
   {
@@ -2014,6 +2122,7 @@
     "heure": "18:00",
     "note": "Le 10 du mois précédent (à vérifier) ; créer le compte et valider le téléphone avant."
    },
+   "resume": "Café Kirby au pied de la Skytree (Solamachi, 4e étage).",
    "photo": "Kirby Café"
   },
   {
@@ -2030,6 +2139,7 @@
    "reservation": false,
    "tampon": false,
    "conseil": "En juin : roses, fleurs d'été et kochias encore vertes ; les némophiles bleues fleurissent au printemps.",
+   "resume": "Immense parc floral en bord de mer, grande roue et parc d'attractions.",
    "photo": "Parc national de Hitachi Seaside"
   }
  ],

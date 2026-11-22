@@ -1,0 +1,325 @@
+{
+ "version": 1,
+ "themes": [
+  {
+   "theme": "Essentiels",
+   "phrases": [
+    {
+     "fr": "Bonjour",
+     "ja": "こんにちは",
+     "romaji": "konnichiwa"
+    },
+    {
+     "fr": "Merci beaucoup",
+     "ja": "ありがとうございます",
+     "romaji": "arigatō gozaimasu"
+    },
+    {
+     "fr": "Excusez-moi (pour appeler ou s'excuser)",
+     "ja": "すみません",
+     "romaji": "sumimasen"
+    },
+    {
+     "fr": "Oui / Non",
+     "ja": "はい / いいえ",
+     "romaji": "hai / iie"
+    },
+    {
+     "fr": "Je ne comprends pas",
+     "ja": "わかりません",
+     "romaji": "wakarimasen"
+    },
+    {
+     "fr": "Parlez-vous anglais ?",
+     "ja": "英語を話せますか？",
+     "romaji": "eigo o hanasemasu ka ?"
+    },
+    {
+     "fr": "Pouvez-vous l'écrire, s'il vous plaît ?",
+     "ja": "書いてもらえますか？",
+     "romaji": "kaite moraemasu ka ?"
+    },
+    {
+     "fr": "Où sont les toilettes ?",
+     "ja": "トイレはどこですか？",
+     "romaji": "toire wa doko desu ka ?"
+    },
+    {
+     "fr": "Nous venons de France",
+     "ja": "フランスから来ました",
+     "romaji": "furansu kara kimashita"
+    },
+    {
+     "fr": "Au revoir",
+     "ja": "さようなら",
+     "romaji": "sayōnara"
+    }
+   ]
+  },
+  {
+   "theme": "Restaurant",
+   "phrases": [
+    {
+     "fr": "Nous sommes trois",
+     "ja": "三人です",
+     "romaji": "san-nin desu"
+    },
+    {
+     "fr": "La carte, s'il vous plaît",
+     "ja": "メニューをお願いします",
+     "romaji": "menyū o onegaishimasu"
+    },
+    {
+     "fr": "Avez-vous une carte en anglais ?",
+     "ja": "英語のメニューはありますか？",
+     "romaji": "eigo no menyū wa arimasu ka ?"
+    },
+    {
+     "fr": "Ceci, s'il vous plaît (en montrant)",
+     "ja": "これをお願いします",
+     "romaji": "kore o onegaishimasu"
+    },
+    {
+     "fr": "De l'eau, s'il vous plaît",
+     "ja": "お水をお願いします",
+     "romaji": "o-mizu o onegaishimasu"
+    },
+    {
+     "fr": "Pas épicé, s'il vous plaît",
+     "ja": "辛くしないでください",
+     "romaji": "karaku shinaide kudasai"
+    },
+    {
+     "fr": "Avez-vous un menu enfant ?",
+     "ja": "お子様メニューはありますか？",
+     "romaji": "okosama menyū wa arimasu ka ?"
+    },
+    {
+     "fr": "L'addition, s'il vous plaît",
+     "ja": "お会計をお願いします",
+     "romaji": "o-kaikei o onegaishimasu"
+    },
+    {
+     "fr": "Peut-on payer par carte ?",
+     "ja": "カードで払えますか？",
+     "romaji": "kādo de haraemasu ka ?"
+    },
+    {
+     "fr": "C'était délicieux, merci (en partant)",
+     "ja": "ごちそうさまでした",
+     "romaji": "gochisōsama deshita"
+    }
+   ]
+  },
+  {
+   "theme": "Allergies & santé",
+   "phrases": [
+    {
+     "fr": "Je suis allergique à … (montrer l'aliment)",
+     "ja": "…のアレルギーがあります",
+     "romaji": "… no arerugī ga arimasu"
+    },
+    {
+     "fr": "Je ne mange pas de viande",
+     "ja": "肉は食べられません",
+     "romaji": "niku wa taberaremasen"
+    },
+    {
+     "fr": "Sans porc, s'il vous plaît",
+     "ja": "豚肉抜きでお願いします",
+     "romaji": "butaniku nuki de onegaishimasu"
+    },
+    {
+     "fr": "Y a-t-il des fruits de mer dedans ?",
+     "ja": "魚介類は入っていますか？",
+     "romaji": "gyokairui wa haitte imasu ka ?"
+    },
+    {
+     "fr": "Où est la pharmacie la plus proche ?",
+     "ja": "一番近い薬局はどこですか？",
+     "romaji": "ichiban chikai yakkyoku wa doko desu ka ?"
+    },
+    {
+     "fr": "J'ai mal ici",
+     "ja": "ここが痛いです",
+     "romaji": "koko ga itai desu"
+    }
+   ]
+  },
+  {
+   "theme": "Transports",
+   "phrases": [
+    {
+     "fr": "Où est la gare ?",
+     "ja": "駅はどこですか？",
+     "romaji": "eki wa doko desu ka ?"
+    },
+    {
+     "fr": "Ce train va-t-il à … ?",
+     "ja": "この電車は…に行きますか？",
+     "romaji": "kono densha wa … ni ikimasu ka ?"
+    },
+    {
+     "fr": "Quel quai pour … ?",
+     "ja": "…行きは何番線ですか？",
+     "romaji": "… iki wa nan-bansen desu ka ?"
+    },
+    {
+     "fr": "Un aller simple pour …, s'il vous plaît",
+     "ja": "…まで片道一枚お願いします",
+     "romaji": "… made katamichi ichi-mai onegaishimasu"
+    },
+    {
+     "fr": "Je voudrais réserver des places",
+     "ja": "席を予約したいです",
+     "romaji": "seki o yoyaku shitai desu"
+    },
+    {
+     "fr": "Trois places côte à côte, s'il vous plaît",
+     "ja": "三人並んで座れる席をお願いします",
+     "romaji": "san-nin narande suwareru seki o onegaishimasu"
+    },
+    {
+     "fr": "Je voudrais recharger ma carte",
+     "ja": "チャージしたいです",
+     "romaji": "chāji shitai desu"
+    },
+    {
+     "fr": "À cette adresse, s'il vous plaît (taxi)",
+     "ja": "この住所までお願いします",
+     "romaji": "kono jūsho made onegaishimasu"
+    },
+    {
+     "fr": "Arrêtez-vous ici, s'il vous plaît",
+     "ja": "ここで止めてください",
+     "romaji": "koko de tomete kudasai"
+    }
+   ]
+  },
+  {
+   "theme": "Hôtel",
+   "phrases": [
+    {
+     "fr": "J'ai une réservation au nom de …",
+     "ja": "…の名前で予約しています",
+     "romaji": "… no namae de yoyaku shite imasu"
+    },
+    {
+     "fr": "Pouvez-vous garder nos bagages ?",
+     "ja": "荷物を預かってもらえますか？",
+     "romaji": "nimotsu o azukatte moraemasu ka ?"
+    },
+    {
+     "fr": "À quelle heure est le petit-déjeuner ?",
+     "ja": "朝食は何時からですか？",
+     "romaji": "chōshoku wa nan-ji kara desu ka ?"
+    },
+    {
+     "fr": "Je voudrais envoyer cette valise à … (takkyubin)",
+     "ja": "このスーツケースを…に送りたいです",
+     "romaji": "kono sūtsukēsu o … ni okuritai desu"
+    },
+    {
+     "fr": "Quel est le mot de passe du Wi-Fi ?",
+     "ja": "Wi-Fiのパスワードは何ですか？",
+     "romaji": "wai-fai no pasuwādo wa nan desu ka ?"
+    }
+   ]
+  },
+  {
+   "theme": "Shopping",
+   "phrases": [
+    {
+     "fr": "Combien ça coûte ?",
+     "ja": "いくらですか？",
+     "romaji": "ikura desu ka ?"
+    },
+    {
+     "fr": "Est-ce possible en détaxe (tax free) ?",
+     "ja": "免税できますか？",
+     "romaji": "menzei dekimasu ka ?"
+    },
+    {
+     "fr": "Je regarde seulement",
+     "ja": "見ているだけです",
+     "romaji": "mite iru dake desu"
+    },
+    {
+     "fr": "Avez-vous une autre taille ?",
+     "ja": "他のサイズはありますか？",
+     "romaji": "hoka no saizu wa arimasu ka ?"
+    },
+    {
+     "fr": "Un sac, s'il vous plaît",
+     "ja": "袋をお願いします",
+     "romaji": "fukuro o onegaishimasu"
+    }
+   ]
+  },
+  {
+   "theme": "Urgences",
+   "phrases": [
+    {
+     "fr": "Au secours !",
+     "ja": "助けて！",
+     "romaji": "tasukete !"
+    },
+    {
+     "fr": "Appelez une ambulance, s'il vous plaît",
+     "ja": "救急車を呼んでください",
+     "romaji": "kyūkyūsha o yonde kudasai"
+    },
+    {
+     "fr": "Appelez la police, s'il vous plaît",
+     "ja": "警察を呼んでください",
+     "romaji": "keisatsu o yonde kudasai"
+    },
+    {
+     "fr": "Mon enfant s'est perdu",
+     "ja": "子供が迷子になりました",
+     "romaji": "kodomo ga maigo ni narimashita"
+    },
+    {
+     "fr": "J'ai perdu mon passeport",
+     "ja": "パスポートをなくしました",
+     "romaji": "pasupōto o nakushimashita"
+    },
+    {
+     "fr": "Où est l'hôpital ?",
+     "ja": "病院はどこですか？",
+     "romaji": "byōin wa doko desu ka ?"
+    }
+   ]
+  },
+  {
+   "theme": "Pour les enfants",
+   "phrases": [
+    {
+     "fr": "Je m'appelle …",
+     "ja": "…です",
+     "romaji": "… desu"
+    },
+    {
+     "fr": "J'ai 11 ans",
+     "ja": "11歳です",
+     "romaji": "jū-issai desu"
+    },
+    {
+     "fr": "Je suis perdue, aidez-moi s'il vous plaît",
+     "ja": "迷子です。助けてください",
+     "romaji": "maigo desu. tasukete kudasai"
+    },
+    {
+     "fr": "C'est trop mignon !",
+     "ja": "かわいい！",
+     "romaji": "kawaii !"
+    },
+    {
+     "fr": "Bonne nuit",
+     "ja": "おやすみなさい",
+     "romaji": "oyasuminasai"
+    }
+   ]
+  }
+ ]
+}

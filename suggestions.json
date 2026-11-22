@@ -1,7 +1,14 @@
 {
- "version": 10,
+ "version": 11,
  "verifie": "2026-11-22",
  "changements": [
+  {
+   "version": 11,
+   "date": "2026-11-22",
+   "textes": [
+    "Nouvelles descriptions pour les 102 suggestions de visites, et photos des lieux téléchargeables (carte interactive)."
+   ]
+  },
   {
    "version": 10,
    "date": "2026-11-22",
@@ -340,7 +347,7 @@
    "id": "osaka-dotonbori",
    "villeId": "osaka",
    "titre": "Dotonbori et Namba",
-   "description": "Néons, canal et street food (takoyaki, kushikatsu).",
+   "description": "Le cœur battant d'Osaka : enseignes géantes (le célèbre coureur Glico, le crabe animé), canal illuminé et odeur de takoyaki à chaque coin de rue. À voir de nuit, l'estomac vide.",
    "categorie": "QUARTIER",
    "dureeH": 2.5,
    "enfant": true,
@@ -349,13 +356,14 @@
    "lon": 135.5013,
    "reservation": false,
    "tampon": false,
-   "conseil": "Plus spectaculaire à la tombée de la nuit."
+   "conseil": "Plus spectaculaire à la tombée de la nuit.",
+   "photo": "Dōtonbori"
   },
   {
    "id": "osaka-chateau",
    "villeId": "osaka",
    "titre": "Château d'Osaka",
-   "description": "Donjon-musée et grand parc autour des douves.",
+   "description": "Donjon blanc et doré qui domine des douves immenses ; à l'intérieur, l'histoire des samouraïs racontée en maquettes et armures, puis vue sur toute la ville depuis le sommet.",
    "categorie": "MONUMENT",
    "dureeH": 2,
    "enfant": true,
@@ -364,13 +372,14 @@
    "lon": 135.5262,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Château d'Osaka"
   },
   {
    "id": "osaka-kaiyukan",
    "villeId": "osaka",
    "titre": "Aquarium Kaiyukan",
-   "description": "Un des plus grands aquariums du monde, avec un requin-baleine.",
+   "description": "On descend en spirale autour d'un bassin géant où nage un requin-baleine de plusieurs mètres, au milieu des raies mantas. Loutres, pingouins et méduses fascinent les enfants.",
    "categorie": "ATTRACTION",
    "dureeH": 3,
    "enfant": true,
@@ -379,13 +388,14 @@
    "lon": 135.429,
    "reservation": false,
    "tampon": false,
-   "conseil": "Billets en ligne conseillés pour éviter la file."
+   "conseil": "Billets en ligne conseillés pour éviter la file.",
+   "photo": "Kaiyukan"
   },
   {
    "id": "osaka-usj",
    "villeId": "osaka",
    "titre": "Universal Studios Japan",
-   "description": "Parc d'attractions avec Super Nintendo World.",
+   "description": "Le Super Nintendo World permet d'entrer dans l'univers de Mario (bracelets pour taper les blocs, course de karts en réalité augmentée), à côté du monde de Harry Potter.",
    "categorie": "ATTRACTION",
    "dureeH": 9,
    "enfant": true,
@@ -394,13 +404,14 @@
    "lon": 135.4323,
    "reservation": true,
    "tampon": false,
-   "conseil": "Super Nintendo World : prévoir un billet daté et un accès à horaire."
+   "conseil": "Super Nintendo World : prévoir un billet daté et un accès à horaire.",
+   "photo": "Universal Studios Japan"
   },
   {
    "id": "osaka-shinsekai",
    "villeId": "osaka",
    "titre": "Shinsekai et tour Tsutenkaku",
-   "description": "Quartier rétro des années 1920, ambiance populaire.",
+   "description": "Ambiance rétro des années 50 au pied de la tour Tsutenkaku : façades colorées, jeux d'arcade d'antan et brochettes panées kushikatsu (règle sacrée : on ne trempe qu'une fois dans la sauce !).",
    "categorie": "QUARTIER",
    "dureeH": 2,
    "enfant": true,
@@ -409,13 +420,14 @@
    "lon": 135.5063,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Shinsekai"
   },
   {
    "id": "osaka-kuromon",
    "villeId": "osaka",
    "titre": "Marché Kuromon",
-   "description": "Marché couvert : fruits de mer et en-cas à goûter sur place.",
+   "description": "« La cuisine d'Osaka » : 150 étals où l'on goûte sur place coquilles Saint-Jacques grillées, thon, fraises géantes et wagyu en brochette.",
    "categorie": "GASTRONOMIE",
    "dureeH": 1.5,
    "enfant": true,
@@ -424,13 +436,14 @@
    "lon": 135.5068,
    "reservation": false,
    "tampon": false,
-   "conseil": "Venir le matin, beaucoup d'étals ferment tôt."
+   "conseil": "Venir le matin, beaucoup d'étals ferment tôt.",
+   "photo": "Kuromon Ichiba"
   },
   {
    "id": "osaka-umeda-sky",
    "villeId": "osaka",
    "titre": "Umeda Sky Building",
-   "description": "Observatoire en plein air entre deux tours.",
+   "description": "Deux tours reliées tout en haut par un observatoire circulaire à ciel ouvert : à 173 m, on fait le tour d'Osaka à 360°, magique au coucher du soleil.",
    "categorie": "VUE",
    "dureeH": 1.5,
    "enfant": true,
@@ -439,13 +452,14 @@
    "lon": 135.4906,
    "reservation": false,
    "tampon": false,
-   "conseil": "Magnifique au coucher du soleil."
+   "conseil": "Magnifique au coucher du soleil.",
+   "photo": "Umeda Sky Building"
   },
   {
    "id": "osaka-cupnoodles",
    "villeId": "osaka",
    "titre": "Musée Cup Noodles (Ikeda)",
-   "description": "Créer et décorer son propre pot de nouilles.",
+   "description": "Là où sont nées les nouilles instantanées : on dessine son propre pot de Cup Noodles et on choisit ses ingrédients. Souvenir unique, à réserver pour l'atelier.",
    "categorie": "MUSEE",
    "dureeH": 2,
    "enfant": true,
@@ -454,13 +468,14 @@
    "lon": 135.4269,
    "reservation": true,
    "tampon": false,
-   "conseil": "À 30 min du centre ; certains ateliers se réservent."
+   "conseil": "À 30 min du centre ; certains ateliers se réservent.",
+   "photo": "Musée des nouilles instantanées Momofuku Andō"
   },
   {
    "id": "osaka-sumiyoshi",
    "villeId": "osaka",
    "titre": "Sanctuaire Sumiyoshi Taisha",
-   "description": "Un des plus anciens sanctuaires, pont rouge en arc.",
+   "description": "Un des plus anciens sanctuaires du Japon, avec son pont rouge en arc très bombé à franchir pour se porter chance. Le 14 juin, fête du repiquage du riz.",
    "categorie": "TEMPLE",
    "dureeH": 1.5,
    "enfant": true,
@@ -469,13 +484,14 @@
    "lon": 135.493,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Sumiyoshi-taisha"
   },
   {
    "id": "kyoto-fushimi",
    "villeId": "kyoto",
    "titre": "Fushimi Inari",
-   "description": "Des milliers de torii orange sur la montagne.",
+   "description": "Des milliers de portiques vermillon serrés en tunnels qui grimpent dans la forêt, gardés par des renards de pierre. Partir tôt le matin pour les photos sans foule.",
    "categorie": "TEMPLE",
    "dureeH": 2.5,
    "enfant": true,
@@ -484,13 +500,14 @@
    "lon": 135.7727,
    "reservation": false,
    "tampon": true,
-   "conseil": "Arriver tôt le matin pour éviter la foule."
+   "conseil": "Arriver tôt le matin pour éviter la foule.",
+   "photo": "Fushimi Inari-taisha"
   },
   {
    "id": "kyoto-kinkakuji",
    "villeId": "kyoto",
    "titre": "Kinkaku-ji, le Pavillon d'or",
-   "description": "Pavillon recouvert de feuille d'or au bord d'un étang.",
+   "description": "Un pavillon recouvert de feuilles d'or qui se reflète dans un étang parfaitement calme : l'image la plus célèbre de Kyoto, encore plus éclatante sous le soleil.",
    "categorie": "TEMPLE",
    "dureeH": 1,
    "enfant": true,
@@ -499,13 +516,14 @@
    "lon": 135.7292,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Kinkaku-ji"
   },
   {
    "id": "kyoto-arashiyama",
    "villeId": "kyoto",
    "titre": "Arashiyama et bambouseraie",
-   "description": "Forêt de bambous, pont Togetsukyo et temple Tenryu-ji.",
+   "description": "Marcher entre d'immenses tiges de bambous qui craquent au vent, puis traverser le pont Togetsukyo et la rivière. Très tôt le matin pour profiter du calme.",
    "categorie": "NATURE",
    "dureeH": 3,
    "enfant": true,
@@ -514,13 +532,14 @@
    "lon": 135.6713,
    "reservation": false,
    "tampon": true,
-   "conseil": "La bambouseraie est plus calme avant 8 h."
+   "conseil": "La bambouseraie est plus calme avant 8 h.",
+   "photo": "Arashiyama"
   },
   {
    "id": "kyoto-monkey",
    "villeId": "kyoto",
    "titre": "Parc aux singes d'Iwatayama",
-   "description": "Montée de 20 min pour approcher des macaques et voir Kyoto d'en haut.",
+   "description": "Après 20 minutes de montée, des dizaines de macaques en liberté et une vue sur tout Kyoto. On peut les nourrir… depuis l'intérieur d'une cabane, les humains derrière la grille !",
    "categorie": "NATURE",
    "dureeH": 1.5,
    "enfant": true,
@@ -529,13 +548,14 @@
    "lon": 135.6773,
    "reservation": false,
    "tampon": false,
-   "conseil": "À combiner avec Arashiyama."
+   "conseil": "À combiner avec Arashiyama.",
+   "photo": "Iwatayama"
   },
   {
    "id": "kyoto-kiyomizu",
    "villeId": "kyoto",
    "titre": "Kiyomizu-dera et Sannenzaka",
-   "description": "Temple sur pilotis et ruelles pavées commerçantes.",
+   "description": "Temple sur pilotis en bois accroché à la colline, avec sa grande terrasse au-dessus des arbres. On descend ensuite par les ruelles pavées de Sannenzaka bordées de boutiques.",
    "categorie": "TEMPLE",
    "dureeH": 2.5,
    "enfant": true,
@@ -544,13 +564,14 @@
    "lon": 135.785,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Kiyomizu-dera"
   },
   {
    "id": "kyoto-gion",
    "villeId": "kyoto",
    "titre": "Gion, quartier des geishas",
-   "description": "Maisons de thé en bois et ruelle Hanamikoji.",
+   "description": "Maisons de thé en bois, lanternes et ruelles de Hanamikoji : à la tombée du jour, on peut croiser une maiko pressée entre deux rendez-vous (on ne la photographie pas de près).",
    "categorie": "QUARTIER",
    "dureeH": 2,
    "enfant": false,
@@ -559,13 +580,14 @@
    "lon": 135.775,
    "reservation": false,
    "tampon": false,
-   "conseil": "En fin de journée ; ne pas photographier les geiko de près."
+   "conseil": "En fin de journée ; ne pas photographier les geiko de près.",
+   "photo": "Gion"
   },
   {
    "id": "kyoto-nishiki",
    "villeId": "kyoto",
    "titre": "Marché Nishiki",
-   "description": "« La cuisine de Kyoto » : 400 m d'étals couverts.",
+   "description": "Une rue couverte de 400 m de spécialités kyotoïtes à grignoter : tamagoyaki, tofu, pieuvres confites, pickles colorés et couteaux de chefs.",
    "categorie": "GASTRONOMIE",
    "dureeH": 1.5,
    "enfant": true,
@@ -574,13 +596,14 @@
    "lon": 135.7649,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Marché Nishiki"
   },
   {
    "id": "kyoto-ginkakuji",
    "villeId": "kyoto",
    "titre": "Ginkaku-ji et chemin de la philosophie",
-   "description": "Pavillon d'argent, jardin de sable et balade le long d'un canal.",
+   "description": "Le Pavillon d'argent, sobre et zen, avec son jardin de sable ratissé, puis 2 km de promenade le long d'un canal ombragé (lucioles en juin à la nuit tombée).",
    "categorie": "TEMPLE",
    "dureeH": 2.5,
    "enfant": false,
@@ -589,13 +612,14 @@
    "lon": 135.7982,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Ginkaku-ji"
   },
   {
    "id": "kyoto-kimono",
    "villeId": "kyoto",
    "titre": "Balade en kimono",
-   "description": "Location de kimono pour la journée dans le vieux Kyoto.",
+   "description": "Se faire habiller en kimono ou yukata (coiffure comprise) et flâner dans Higashiyama : photos inoubliables, et souvent l'entrée de temples à tarif réduit.",
    "categorie": "EXPERIENCE",
    "dureeH": 3,
    "enfant": true,
@@ -604,13 +628,14 @@
    "lon": 135.78,
    "reservation": true,
    "tampon": false,
-   "conseil": "Réserver la location ; tailles enfant disponibles."
+   "conseil": "Réserver la location ; tailles enfant disponibles.",
+   "photo": "Kimono"
   },
   {
    "id": "kyoto-the",
    "villeId": "kyoto",
    "titre": "Cérémonie du thé",
-   "description": "Initiation au rituel du thé matcha.",
+   "description": "Un maître de thé explique chaque geste, puis on prépare soi-même son matcha au fouet de bambou avec une douceur wagashi. Moment calme et très instructif.",
    "categorie": "EXPERIENCE",
    "dureeH": 1,
    "enfant": true,
@@ -619,13 +644,14 @@
    "lon": 135.776,
    "reservation": true,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Cérémonie du thé japonaise"
   },
   {
    "id": "kyoto-railway",
    "villeId": "kyoto",
    "titre": "Musée du chemin de fer",
-   "description": "Shinkansen, locomotives à vapeur et simulateurs.",
+   "description": "Plus de 50 trains, des Shinkansen aux locomotives à vapeur encore en marche dans une rotonde géante ; simulateurs de conduite très prisés des enfants.",
    "categorie": "MUSEE",
    "dureeH": 2.5,
    "enfant": true,
@@ -634,13 +660,14 @@
    "lon": 135.7427,
    "reservation": false,
    "tampon": false,
-   "conseil": "Idéal par temps de pluie."
+   "conseil": "Idéal par temps de pluie.",
+   "photo": "Musée ferroviaire de Kyoto"
   },
   {
    "id": "kyoto-manga",
    "villeId": "kyoto",
    "titre": "Musée international du manga",
-   "description": "Des milliers de mangas à lire sur place.",
+   "description": "Une ancienne école remplie de 50 000 mangas qu'on peut lire assis dans l'herbe artificielle ; ateliers de dessin et histoire du manga.",
    "categorie": "MUSEE",
    "dureeH": 2,
    "enfant": true,
@@ -649,13 +676,14 @@
    "lon": 135.7594,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Kyoto International Manga Museum"
   },
   {
    "id": "kyoto-toei",
    "villeId": "kyoto",
    "titre": "Toei Kyoto Studio Park",
-   "description": "Décors de films d'époque, spectacles de ninjas et samouraïs.",
+   "description": "Studio de cinéma d'époque : rues d'Edo, ninjas, samouraïs, maison hantée et spectacles. On s'y déguise et on joue les figurants.",
    "categorie": "ATTRACTION",
    "dureeH": 3,
    "enfant": true,
@@ -664,13 +692,14 @@
    "lon": 135.7091,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Toei Kyoto Studio Park"
   },
   {
    "id": "kyoto-nijo",
    "villeId": "kyoto",
    "titre": "Château de Nijo",
-   "description": "Résidence du shogun aux parquets « rossignol » qui chantent.",
+   "description": "Le château des shoguns et ses « planchers rossignols » qui chantent sous les pas pour trahir les intrus ; salles peintes de tigres dorés.",
    "categorie": "MONUMENT",
    "dureeH": 1.5,
    "enfant": true,
@@ -679,13 +708,14 @@
    "lon": 135.748,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Château de Nijō"
   },
   {
    "id": "nara-parc",
    "villeId": "nara",
    "titre": "Parc de Nara et ses daims",
-   "description": "Plus de 1 000 daims en liberté qui saluent pour des biscuits.",
+   "description": "Plus de 1 000 daims sacrés en liberté qui saluent… en inclinant la tête pour réclamer des biscuits shika senbei. Rires garantis (attention aux plus gourmands !).",
    "categorie": "NATURE",
    "dureeH": 2,
    "enfant": true,
@@ -694,13 +724,14 @@
    "lon": 135.843,
    "reservation": false,
    "tampon": false,
-   "conseil": "Ranger cartes et papiers : les daims les mangent."
+   "conseil": "Ranger cartes et papiers : les daims les mangent.",
+   "photo": "Parc de Nara"
   },
   {
    "id": "nara-todaiji",
    "villeId": "nara",
    "titre": "Todai-ji, le grand Bouddha",
-   "description": "Immense statue en bronze dans un gigantesque bâtiment en bois.",
+   "description": "Le plus grand bâtiment en bois ancien du monde abrite un Bouddha de bronze de 15 m. Défi : passer dans le trou d'un pilier, grand comme sa narine, pour la sagesse.",
    "categorie": "TEMPLE",
    "dureeH": 1.5,
    "enfant": true,
@@ -709,13 +740,14 @@
    "lon": 135.8398,
    "reservation": false,
    "tampon": true,
-   "conseil": "Passer dans le trou du pilier porterait chance."
+   "conseil": "Passer dans le trou du pilier porterait chance.",
+   "photo": "Tōdai-ji"
   },
   {
    "id": "nara-kasuga",
    "villeId": "nara",
    "titre": "Kasuga Taisha",
-   "description": "Sanctuaire aux milliers de lanternes.",
+   "description": "Allées bordées de 3 000 lanternes de pierre couvertes de mousse et sanctuaire vermillon dans la forêt sacrée, où les daims se promènent aussi.",
    "categorie": "TEMPLE",
    "dureeH": 1,
    "enfant": true,
@@ -724,13 +756,14 @@
    "lon": 135.8484,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Kasuga-taisha"
   },
   {
    "id": "uji-byodoin",
    "villeId": "uji",
    "titre": "Byodo-in",
-   "description": "Le pavillon du Phénix, gravé sur la pièce de 10 yens.",
+   "description": "Le Pavillon du Phénix, posé sur son étang, est celui qu'on voit sur la pièce de 10 ¥ : comparez avec une pièce en poche ! Uji est aussi la capitale du thé vert.",
    "categorie": "TEMPLE",
    "dureeH": 1.5,
    "enfant": true,
@@ -739,13 +772,14 @@
    "lon": 135.8077,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Byōdō-in"
   },
   {
    "id": "uji-nintendo",
    "villeId": "uji",
    "titre": "Nintendo Museum",
-   "description": "Histoire de Nintendo et jeux interactifs géants.",
+   "description": "Musée de Nintendo dans son ancienne usine : de ses cartes à jouer de 1889 à la Switch, avec des jeux géants interactifs. Billets par tirage au sort, à demander tôt.",
    "categorie": "MUSEE",
    "dureeH": 3,
    "enfant": true,
@@ -759,13 +793,14 @@
     "type": "TIRAGE",
     "mois": 3,
     "note": "Inscription au tirage au sort pendant le mois indiqué (compte Nintendo)."
-   }
+   },
+   "photo": "Nintendo Museum"
   },
   {
    "id": "uji-matcha",
    "villeId": "uji",
    "titre": "Dégustation de matcha",
-   "description": "Maisons de thé historiques le long de la rivière Uji.",
+   "description": "Dans la ville du meilleur matcha du Japon : glaces, parfaits et soba au thé vert, et maisons de thé centenaires le long de la rivière.",
    "categorie": "GASTRONOMIE",
    "dureeH": 1,
    "enfant": true,
@@ -774,13 +809,14 @@
    "lon": 135.805,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Uji (Kyoto)"
   },
   {
    "id": "himeji-chateau",
    "villeId": "himeji",
    "titre": "Château de Himeji",
-   "description": "Le « Héron blanc », château original classé à l'UNESCO.",
+   "description": "Le plus beau château du Japon, blanc comme un héron, jamais détruit en 400 ans. Escaliers raides jusqu'au donjon, pièges et meurtrières à repérer.",
    "categorie": "MONUMENT",
    "dureeH": 2.5,
    "enfant": true,
@@ -789,13 +825,14 @@
    "lon": 134.6939,
    "reservation": false,
    "tampon": true,
-   "conseil": "Beaucoup d'escaliers raides à l'intérieur."
+   "conseil": "Beaucoup d'escaliers raides à l'intérieur.",
+   "photo": "Château de Himeji"
   },
   {
    "id": "hiroshima-memorial",
    "villeId": "hiroshima",
    "titre": "Mémorial et musée de la Paix",
-   "description": "Parc, dôme de Genbaku et musée sur la bombe atomique.",
+   "description": "Le dôme de Genbaku et le parc de la Paix, avec les grues en papier de Sadako. Moment fort et émouvant ; le musée demande de préparer les enfants.",
    "categorie": "MUSEE",
    "dureeH": 2.5,
    "enfant": false,
@@ -804,13 +841,14 @@
    "lon": 132.4536,
    "reservation": false,
    "tampon": true,
-   "conseil": "Certaines salles sont éprouvantes : à préparer avec un enfant."
+   "conseil": "Certaines salles sont éprouvantes : à préparer avec un enfant.",
+   "photo": "Mémorial pour la paix d'Hiroshima"
   },
   {
    "id": "hiroshima-okonomiyaki",
    "villeId": "hiroshima",
    "titre": "Okonomimura",
-   "description": "Immeuble entier de comptoirs d'okonomiyaki.",
+   "description": "Un immeuble entier de comptoirs d'okonomiyaki à la mode d'Hiroshima, en couches avec nouilles : on regarde le chef le préparer sur la plaque devant soi.",
    "categorie": "GASTRONOMIE",
    "dureeH": 1,
    "enfant": true,
@@ -819,13 +857,14 @@
    "lon": 132.461,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Okonomiyaki"
   },
   {
    "id": "hiroshima-chateau",
    "villeId": "hiroshima",
    "titre": "Château de Hiroshima",
-   "description": "Château reconstruit, musée sur les samouraïs.",
+   "description": "Le « château de la Carpe », reconstruit après 1945, avec musée des samouraïs et essayage de casques et armures.",
    "categorie": "MONUMENT",
    "dureeH": 1,
    "enfant": true,
@@ -834,13 +873,14 @@
    "lon": 132.4594,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Château de Hiroshima"
   },
   {
    "id": "miyajima-itsukushima",
    "villeId": "miyajima",
    "titre": "Sanctuaire d'Itsukushima",
-   "description": "Le célèbre torii qui semble flotter à marée haute.",
+   "description": "Le grand torii rouge qui semble flotter sur la mer à marée haute ; à marée basse, on marche jusqu'à son pied. Daims et gâteaux momiji tout chauds sur l'île.",
    "categorie": "TEMPLE",
    "dureeH": 2,
    "enfant": true,
@@ -849,13 +889,14 @@
    "lon": 132.3199,
    "reservation": false,
    "tampon": true,
-   "conseil": "Vérifier les horaires des marées : à marée basse on marche jusqu'au torii."
+   "conseil": "Vérifier les horaires des marées : à marée basse on marche jusqu'au torii.",
+   "photo": "Itsukushima-jinja"
   },
   {
    "id": "miyajima-misen",
    "villeId": "miyajima",
    "titre": "Mont Misen",
-   "description": "Téléphérique et randonnée jusqu'au sommet, vue sur la mer intérieure.",
+   "description": "Téléphérique puis courte randonnée jusqu'au sommet sacré : vue panoramique sur la mer intérieure et ses îles, flamme éternelle allumée il y a 1 200 ans.",
    "categorie": "NATURE",
    "dureeH": 3,
    "enfant": true,
@@ -864,13 +905,14 @@
    "lon": 132.3197,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Mont Misen"
   },
   {
    "id": "kanazawa-kenrokuen",
    "villeId": "kanazawa",
    "titre": "Jardin Kenroku-en",
-   "description": "Un des trois plus beaux jardins du Japon.",
+   "description": "Un des trois plus beaux jardins du Japon : étangs, ponts de pierre, lanternes et une fontaine qui jaillit par simple gravité depuis 1861.",
    "categorie": "NATURE",
    "dureeH": 1.5,
    "enfant": true,
@@ -879,13 +921,14 @@
    "lon": 136.6627,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Kenroku-en"
   },
   {
    "id": "kanazawa-higashi",
    "villeId": "kanazawa",
    "titre": "Higashi Chaya",
-   "description": "Quartier de maisons de thé ; glaces à la feuille d'or.",
+   "description": "Ruelles de maisons de geishas aux façades de bois, et une glace recouverte d'une feuille d'or entière : Kanazawa produit 99 % de l'or en feuille du Japon.",
    "categorie": "QUARTIER",
    "dureeH": 1.5,
    "enfant": true,
@@ -894,13 +937,14 @@
    "lon": 136.6667,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Higashi Chaya"
   },
   {
    "id": "kanazawa-21",
    "villeId": "kanazawa",
    "titre": "Musée d'art du 21e siècle",
-   "description": "Art contemporain ludique, dont la célèbre « piscine ».",
+   "description": "Musée d'art moderne rond et lumineux ; sa piscine de Leandro Erlich donne l'illusion de marcher sous l'eau tout habillé.",
    "categorie": "MUSEE",
    "dureeH": 2,
    "enfant": true,
@@ -909,13 +953,14 @@
    "lon": 136.6582,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Musée d'art contemporain du XXIe siècle de Kanazawa"
   },
   {
    "id": "kanazawa-omicho",
    "villeId": "kanazawa",
    "titre": "Marché Omicho",
-   "description": "Marché aux poissons et bols de fruits de mer.",
+   "description": "Le marché aux poissons de la ville : bols de sashimi (kaisendon) ultra-frais au comptoir, crabes et crevettes doux de la mer du Japon.",
    "categorie": "GASTRONOMIE",
    "dureeH": 1,
    "enfant": true,
@@ -924,13 +969,14 @@
    "lon": 136.6564,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Marché Ōmichō"
   },
   {
    "id": "kanazawa-ninja",
    "villeId": "kanazawa",
    "titre": "Myoryu-ji, le temple des ninjas",
-   "description": "Pièges, passages secrets et escaliers cachés.",
+   "description": "Un temple truffé d'une trentaine d'escaliers cachés, trappes et passages secrets pour défendre le seigneur. Visite guidée (réserver), parfaite pour les apprentis ninjas.",
    "categorie": "TEMPLE",
    "dureeH": 1,
    "enfant": true,
@@ -939,13 +985,14 @@
    "lon": 136.651,
    "reservation": true,
    "tampon": true,
-   "conseil": "Visite guidée uniquement, sur réservation."
+   "conseil": "Visite guidée uniquement, sur réservation.",
+   "photo": "Myōryū-ji"
   },
   {
    "id": "shirakawago-village",
    "villeId": "shirakawago",
    "titre": "Village de Shirakawa-go",
-   "description": "Fermes gassho aux grands toits de chaume, classées UNESCO.",
+   "description": "Village de fermes au toit de chaume pointu comme des mains en prière, au milieu des rizières. Monter au belvédère pour la carte postale.",
    "categorie": "QUARTIER",
    "dureeH": 3,
    "enfant": true,
@@ -954,13 +1001,14 @@
    "lon": 136.906,
    "reservation": false,
    "tampon": false,
-   "conseil": "Bus depuis Takayama ou Kanazawa : réserver le trajet."
+   "conseil": "Bus depuis Takayama ou Kanazawa : réserver le trajet.",
+   "photo": "Shirakawa-gō"
   },
   {
    "id": "takayama-sanmachi",
    "villeId": "takayama",
    "titre": "Vieille ville Sanmachi Suji",
-   "description": "Rues de maisons marchandes en bois et brasseries de saké.",
+   "description": "Rues marchandes d'époque Edo très préservées : brasseries de saké (boules de cèdre aux portes), échoppes et brochettes de bœuf de Hida.",
    "categorie": "QUARTIER",
    "dureeH": 2,
    "enfant": true,
@@ -969,13 +1017,14 @@
    "lon": 137.26,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Takayama"
   },
   {
    "id": "takayama-marche",
    "villeId": "takayama",
    "titre": "Marché du matin Miyagawa",
-   "description": "Marché le long de la rivière : fruits, pickles, artisanat.",
+   "description": "Marché du matin le long de la rivière : légumes de montagne, pickles, miso et poupées sarubobo, porte-bonheur rouges sans visage.",
    "categorie": "GASTRONOMIE",
    "dureeH": 1,
    "enfant": true,
@@ -984,13 +1033,14 @@
    "lon": 137.259,
    "reservation": false,
    "tampon": false,
-   "conseil": "Le matin uniquement."
+   "conseil": "Le matin uniquement.",
+   "photo": "Takayama"
   },
   {
    "id": "takayama-hidanosato",
    "villeId": "takayama",
    "titre": "Hida no Sato",
-   "description": "Village-musée de maisons traditionnelles de montagne.",
+   "description": "Musée en plein air de vieilles fermes au toit de chaume autour d'un étang, avec artisans au travail. Shirakawa-go en miniature, sans la foule.",
    "categorie": "MUSEE",
    "dureeH": 2,
    "enfant": true,
@@ -999,13 +1049,14 @@
    "lon": 137.239,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Hida no Sato"
   },
   {
    "id": "hakone-boucle",
    "villeId": "hakone",
    "titre": "Boucle de Hakone",
-   "description": "Train de montagne, téléphérique, Owakudani et bateau pirate sur le lac Ashi.",
+   "description": "Train de montagne, funiculaire, téléphérique au-dessus des fumerolles d'Owakudani (œufs noirs qui ajouteraient 7 ans de vie !) puis bateau-pirate sur le lac Ashi.",
    "categorie": "EXPERIENCE",
    "dureeH": 6,
    "enfant": true,
@@ -1014,13 +1065,14 @@
    "lon": 139.021,
    "reservation": false,
    "tampon": true,
-   "conseil": "Le Hakone Free Pass couvre la boucle."
+   "conseil": "Le Hakone Free Pass couvre la boucle.",
+   "photo": "Hakone"
   },
   {
    "id": "hakone-openair",
    "villeId": "hakone",
    "titre": "Musée en plein air de Hakone",
-   "description": "Sculptures géantes dans un parc, structures à escalader pour les enfants.",
+   "description": "Sculptures géantes dans un parc de montagne, pavillon Picasso et structures à escalader pour les enfants ; bain de pieds chaud gratuit.",
    "categorie": "MUSEE",
    "dureeH": 2.5,
    "enfant": true,
@@ -1029,13 +1081,14 @@
    "lon": 139.051,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Musée en plein air de Hakone"
   },
   {
    "id": "hakone-onsen",
    "villeId": "hakone",
    "titre": "Bain en onsen",
-   "description": "Sources chaudes en ryokan ou bains publics.",
+   "description": "Se détendre dans les sources chaudes volcaniques, en bain extérieur face à la montagne. Bains familiaux privés (kashikiri) faciles pour une première fois.",
    "categorie": "EXPERIENCE",
    "dureeH": 2,
    "enfant": true,
@@ -1044,13 +1097,14 @@
    "lon": 139.105,
    "reservation": false,
    "tampon": false,
-   "conseil": "Les tatouages peuvent être refusés ; privilégier un bain privatif."
+   "conseil": "Les tatouages peuvent être refusés ; privilégier un bain privatif.",
+   "photo": "Onsen"
   },
   {
    "id": "kawaguchiko-chureito",
    "villeId": "kawaguchiko",
    "titre": "Pagode Chureito",
-   "description": "La vue de carte postale : pagode rouge et mont Fuji.",
+   "description": "Le point de vue mythique : pagode rouge à cinq étages devant le mont Fuji, après près de 400 marches. Par temps clair seulement, souvent tôt le matin.",
    "categorie": "VUE",
    "dureeH": 2,
    "enfant": true,
@@ -1059,13 +1113,14 @@
    "lon": 138.8018,
    "reservation": false,
    "tampon": true,
-   "conseil": "Près de 400 marches ; le Fuji est souvent caché en juin."
+   "conseil": "Près de 400 marches ; le Fuji est souvent caché en juin.",
+   "photo": "Pagode Chūreitō"
   },
   {
    "id": "kawaguchiko-lac",
    "villeId": "kawaguchiko",
    "titre": "Tour du lac Kawaguchi",
-   "description": "Vélo, téléphérique Kachi Kachi et bords du lac.",
+   "description": "Balade à vélo ou en bus autour du lac face au Fuji, téléphérique Kachi Kachi et parc d'Oishi fleuri de lavande fin juin.",
    "categorie": "NATURE",
    "dureeH": 3,
    "enfant": true,
@@ -1074,13 +1129,14 @@
    "lon": 138.755,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Lac Kawaguchi"
   },
   {
    "id": "kawaguchiko-fujiq",
    "villeId": "kawaguchiko",
    "titre": "Fuji-Q Highland",
-   "description": "Parc aux montagnes russes records.",
+   "description": "Parc d'attractions aux montagnes russes record et à la maison hantée célèbre, avec le Fuji en toile de fond ; zone Thomas pour les plus jeunes.",
    "categorie": "ATTRACTION",
    "dureeH": 6,
    "enfant": true,
@@ -1089,13 +1145,14 @@
    "lon": 138.78,
    "reservation": false,
    "tampon": false,
-   "conseil": "Vérifier les tailles minimales des attractions."
+   "conseil": "Vérifier les tailles minimales des attractions.",
+   "photo": "Fuji-Q Highland"
   },
   {
    "id": "tokyo-sensoji",
    "villeId": "tokyo",
    "titre": "Senso-ji et Nakamise (Asakusa)",
-   "description": "Plus ancien temple de Tokyo et allée de boutiques.",
+   "description": "Le plus vieux temple de Tokyo, derrière la porte et sa lanterne rouge géante ; tirer son omikuji (bonne aventure) et goûter les ningyo-yaki de la rue Nakamise.",
    "categorie": "TEMPLE",
    "dureeH": 2,
    "enfant": true,
@@ -1104,13 +1161,14 @@
    "lon": 139.7967,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Sensō-ji"
   },
   {
    "id": "tokyo-shibuya",
    "villeId": "tokyo",
    "titre": "Carrefour de Shibuya et Hachiko",
-   "description": "Le passage piéton le plus célèbre du monde.",
+   "description": "Traverser le carrefour le plus fréquenté du monde avec des milliers de piétons à chaque feu vert, puis saluer la statue du fidèle chien Hachiko.",
    "categorie": "QUARTIER",
    "dureeH": 1.5,
    "enfant": true,
@@ -1119,13 +1177,14 @@
    "lon": 139.7005,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Carrefour de Shibuya"
   },
   {
    "id": "tokyo-shibuyasky",
    "villeId": "tokyo",
    "titre": "Shibuya Sky",
-   "description": "Toit-terrasse vitré à 230 m au-dessus de Shibuya.",
+   "description": "Toit-terrasse en plein air à 229 m au-dessus du carrefour de Shibuya : vue sur tout Tokyo et le Fuji par temps clair. Créneaux au coucher du soleil très demandés.",
    "categorie": "VUE",
    "dureeH": 1.5,
    "enfant": true,
@@ -1140,13 +1199,14 @@
     "jours": 28,
     "heure": "00:00",
     "note": "Délai variable selon les sources (2 à 4 semaines) : vérifier sur le site officiel."
-   }
+   },
+   "photo": "Shibuya Scramble Square"
   },
   {
    "id": "tokyo-harajuku",
    "villeId": "tokyo",
    "titre": "Harajuku et sanctuaire Meiji",
-   "description": "Rue Takeshita colorée puis forêt du sanctuaire Meiji.",
+   "description": "De la forêt paisible du sanctuaire Meiji à la folie colorée de Takeshita-dori : crêpes géantes, mode kawaii et barbe à papa arc-en-ciel.",
    "categorie": "QUARTIER",
    "dureeH": 3,
    "enfant": true,
@@ -1155,13 +1215,14 @@
    "lon": 139.7031,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Meiji-jingū"
   },
   {
    "id": "tokyo-teamlab-planets",
    "villeId": "tokyo",
    "titre": "teamLab Planets (Toyosu)",
-   "description": "Musée immersif où l'on marche pieds nus dans l'eau et la lumière.",
+   "description": "Musée immersif où l'on marche pieds nus dans l'eau parmi des poissons de lumière et des jardins d'orchidées suspendues. Effet waouh pour toute la famille.",
    "categorie": "MUSEE",
    "dureeH": 2,
    "enfant": true,
@@ -1170,13 +1231,14 @@
    "lon": 139.7898,
    "reservation": true,
    "tampon": false,
-   "conseil": "Ouvert jusqu'à fin 2027 ; billets à horaire."
+   "conseil": "Ouvert jusqu'à fin 2027 ; billets à horaire.",
+   "photo": "teamLab Planets"
   },
   {
    "id": "tokyo-teamlab-borderless",
    "villeId": "tokyo",
    "titre": "teamLab Borderless (Azabudai Hills)",
-   "description": "Œuvres numériques sans frontières qui se déplacent de salle en salle.",
+   "description": "Œuvres numériques qui se déplacent de salle en salle et réagissent aux visiteurs, salle aux lampes, atelier où son dessin prend vie sur les murs.",
    "categorie": "MUSEE",
    "dureeH": 2.5,
    "enfant": true,
@@ -1185,13 +1247,14 @@
    "lon": 139.7404,
    "reservation": true,
    "tampon": false,
-   "conseil": "Billets à horaire."
+   "conseil": "Billets à horaire.",
+   "photo": "teamLab Borderless"
   },
   {
    "id": "tokyo-ghibli",
    "villeId": "tokyo",
    "titre": "Musée Ghibli (Mitaka)",
-   "description": "L'univers de Miyazaki, court-métrage exclusif.",
+   "description": "Le musée imaginé par Miyazaki : court-métrage inédit, chat-bus géant (réservé aux enfants), robot du Château dans le ciel sur le toit. Billets très demandés.",
    "categorie": "MUSEE",
    "dureeH": 2.5,
    "enfant": true,
@@ -1207,13 +1270,14 @@
     "jour": 10,
     "heure": "10:00",
     "note": "Lawson Ticket, vente pour tout le mois suivant."
-   }
+   },
+   "photo": "Musée Ghibli"
   },
   {
    "id": "tokyo-harrypotter",
    "villeId": "tokyo",
    "titre": "Studio Tour Harry Potter",
-   "description": "Décors et costumes des films (Warner Bros. Studio Tour Tokyo).",
+   "description": "Les vrais décors et accessoires des films : Grande Salle, Poudlard Express, Ministère de la Magie et vol sur balai ; bièraubeurre à la sortie.",
    "categorie": "ATTRACTION",
    "dureeH": 4,
    "enfant": true,
@@ -1222,13 +1286,14 @@
    "lon": 139.6466,
    "reservation": true,
    "tampon": false,
-   "conseil": "Billets datés à réserver."
+   "conseil": "Billets datés à réserver.",
+   "photo": "Warner Bros. Studio Tour Tokyo"
   },
   {
    "id": "tokyo-disneysea",
    "villeId": "tokyo",
    "titre": "Tokyo DisneySea",
-   "description": "Parc Disney unique au monde, très apprécié des familles.",
+   "description": "Le parc Disney le plus original au monde : volcan, Venise, mer de Jules Verne et nouveau land Fantasy Springs (Frozen, Raiponce, Peter Pan).",
    "categorie": "ATTRACTION",
    "dureeH": 10,
    "enfant": true,
@@ -1243,13 +1308,14 @@
     "mois": 2,
     "heure": "14:00",
     "note": "Site ou appli officielle Tokyo Disney Resort, ou Klook."
-   }
+   },
+   "photo": "Tokyo DisneySea"
   },
   {
    "id": "tokyo-disneyland",
    "villeId": "tokyo",
    "titre": "Tokyo Disneyland",
-   "description": "Le parc Disney classique.",
+   "description": "Le Disneyland classique, version japonaise impeccable : parades, popcorn aux saveurs folles et attraction Beauty and the Beast.",
    "categorie": "ATTRACTION",
    "dureeH": 10,
    "enfant": true,
@@ -1264,13 +1330,14 @@
     "mois": 2,
     "heure": "14:00",
     "note": "Site ou appli officielle Tokyo Disney Resort, ou Klook."
-   }
+   },
+   "photo": "Tokyo Disneyland"
   },
   {
    "id": "tokyo-akihabara",
    "villeId": "tokyo",
    "titre": "Akihabara",
-   "description": "Jeux vidéo, manga, salles d'arcade.",
+   "description": "La ville électrique : salles d'arcade sur 8 étages, machines à pinces, gachapon par centaines, figurines et cafés à thème.",
    "categorie": "SHOPPING",
    "dureeH": 2.5,
    "enfant": true,
@@ -1279,13 +1346,14 @@
    "lon": 139.7731,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Akihabara"
   },
   {
    "id": "tokyo-pokemon",
    "villeId": "tokyo",
    "titre": "Pokémon Center Mega Tokyo",
-   "description": "La grande boutique Pokémon (Ikebukuro).",
+   "description": "Le plus grand Pokémon Center : peluches exclusives, cartes et objets introuvables ailleurs. Le temple des fans !",
    "categorie": "SHOPPING",
    "dureeH": 1,
    "enfant": true,
@@ -1294,13 +1362,14 @@
    "lon": 139.7193,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Pokémon Center"
   },
   {
    "id": "tokyo-tsukiji",
    "villeId": "tokyo",
    "titre": "Marché extérieur de Tsukiji",
-   "description": "Sushis, omelette tamagoyaki et brochettes de la mer.",
+   "description": "L'ancien marché aux poissons vit toujours en extérieur : omelettes tamagoyaki sur bâton, sushis et fruits de mer grillés dès le matin.",
    "categorie": "GASTRONOMIE",
    "dureeH": 1.5,
    "enfant": true,
@@ -1309,13 +1378,14 @@
    "lon": 139.7707,
    "reservation": false,
    "tampon": false,
-   "conseil": "Le matin."
+   "conseil": "Le matin.",
+   "photo": "Marché de Tsukiji"
   },
   {
    "id": "tokyo-ueno",
    "villeId": "tokyo",
    "titre": "Parc et zoo d'Ueno",
-   "description": "Grand parc, musées et zoo.",
+   "description": "Grand parc avec étang aux lotus, temples et le zoo d'Ueno et ses pandas géants ; musées nationaux tout autour.",
    "categorie": "NATURE",
    "dureeH": 3,
    "enfant": true,
@@ -1324,13 +1394,14 @@
    "lon": 139.7731,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Parc d'Ueno"
   },
   {
    "id": "tokyo-skytree",
    "villeId": "tokyo",
    "titre": "Tokyo Skytree",
-   "description": "La plus haute tour du Japon (634 m).",
+   "description": "La plus haute tour du Japon (634 m) : plancher de verre au-dessus du vide et vue à perte de vue ; aquarium et boutiques au pied.",
    "categorie": "VUE",
    "dureeH": 1.5,
    "enfant": true,
@@ -1339,13 +1410,14 @@
    "lon": 139.8107,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Tokyo Skytree"
   },
   {
    "id": "tokyo-odaiba",
    "villeId": "tokyo",
    "titre": "Odaiba",
-   "description": "Île artificielle : Gundam géant, front de mer, centres de loisirs.",
+   "description": "Île futuriste dans la baie : Gundam géant grandeur nature, plage, grande roue et vue sur le Rainbow Bridge illuminé le soir.",
    "categorie": "QUARTIER",
    "dureeH": 3,
    "enfant": true,
@@ -1354,13 +1426,14 @@
    "lon": 139.7757,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Odaiba"
   },
   {
    "id": "tokyo-miraikan",
    "villeId": "tokyo",
    "titre": "Miraikan",
-   "description": "Musée des sciences et des robots.",
+   "description": "Musée des sciences du futur : robots, globe terrestre lumineux suspendu, expériences sur l'espace et le corps humain, explications en anglais.",
    "categorie": "MUSEE",
    "dureeH": 2.5,
    "enfant": true,
@@ -1369,13 +1442,14 @@
    "lon": 139.7766,
    "reservation": false,
    "tampon": false,
-   "conseil": "Parfait un jour de pluie."
+   "conseil": "Parfait un jour de pluie.",
+   "photo": "Miraikan"
   },
   {
    "id": "tokyo-shinjuku-gyoen",
    "villeId": "tokyo",
    "titre": "Jardin Shinjuku Gyoen",
-   "description": "Grand jardin aux styles japonais, anglais et français.",
+   "description": "Immense jardin mêlant styles japonais, anglais et français : pause pique-nique au calme, serre tropicale et étangs aux carpes.",
    "categorie": "NATURE",
    "dureeH": 1.5,
    "enfant": true,
@@ -1384,13 +1458,14 @@
    "lon": 139.7101,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Shinjuku Gyoen"
   },
   {
    "id": "tokyo-shinjuku-soir",
    "villeId": "tokyo",
    "titre": "Shinjuku le soir",
-   "description": "Ruelles d'Omoide Yokocho, néons et tête de Godzilla.",
+   "description": "Néons de Kabukicho, tête de Godzilla sur un hôtel, chat 3D géant sur un écran et ruelles à yakitori d'Omoide Yokocho : Tokyo version Blade Runner.",
    "categorie": "QUARTIER",
    "dureeH": 2,
    "enfant": true,
@@ -1399,13 +1474,14 @@
    "lon": 139.6995,
    "reservation": false,
    "tampon": false,
-   "conseil": "En début de soirée avec un enfant."
+   "conseil": "En début de soirée avec un enfant.",
+   "photo": "Shinjuku"
   },
   {
    "id": "tokyo-sumo",
    "villeId": "tokyo",
    "titre": "Entraînement de sumo",
-   "description": "Assister à l'entraînement matinal d'une écurie de sumo.",
+   "description": "Assister à l'entraînement matinal (asa-geiko) des lutteurs dans leur écurie : force, rituels et sel lancé sur le ring, à quelques mètres seulement.",
    "categorie": "EXPERIENCE",
    "dureeH": 2,
    "enfant": true,
@@ -1415,13 +1491,14 @@
    "reservation": true,
    "tampon": false,
    "conseil": "Pas de tournoi à Tokyo en juin : passer par une visite réservée.",
-   "heure": "07:30"
+   "heure": "07:30",
+   "photo": "Sumo"
   },
   {
    "id": "tokyo-cuisine",
    "villeId": "tokyo",
    "titre": "Cours de cuisine japonaise",
-   "description": "Préparer sushis ou bento en famille.",
+   "description": "Apprendre à rouler des sushis, faire des gyoza ou des bentos kawaii avec un chef, puis déguster sa création. Activité familiale très appréciée.",
    "categorie": "EXPERIENCE",
    "dureeH": 3,
    "enfant": true,
@@ -1430,13 +1507,14 @@
    "lon": 139.7671,
    "reservation": true,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Cuisine japonaise"
   },
   {
    "id": "kamakura-daibutsu",
    "villeId": "kamakura",
    "titre": "Grand Bouddha de Kamakura",
-   "description": "Bouddha en bronze de 13 m, en plein air.",
+   "description": "Un Bouddha de bronze de 11 m assis en plein air depuis 1252 ; on peut même entrer à l'intérieur de la statue !",
    "categorie": "TEMPLE",
    "dureeH": 1,
    "enfant": true,
@@ -1445,13 +1523,14 @@
    "lon": 139.5359,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Grand Bouddha de Kamakura"
   },
   {
    "id": "kamakura-hasedera",
    "villeId": "kamakura",
    "titre": "Hase-dera",
-   "description": "Temple à flanc de colline, célèbre pour ses hortensias en juin.",
+   "description": "Temple à flanc de colline avec vue sur la mer, grotte aux bougies, et en juin un chemin de 2 500 hortensias en fleur.",
    "categorie": "TEMPLE",
    "dureeH": 1.5,
    "enfant": true,
@@ -1460,13 +1539,14 @@
    "lon": 139.5334,
    "reservation": false,
    "tampon": true,
-   "conseil": "Pleine floraison des hortensias en juin : affluence."
+   "conseil": "Pleine floraison des hortensias en juin : affluence.",
+   "photo": "Hase-dera (Kamakura)"
   },
   {
    "id": "kamakura-enoshima",
    "villeId": "kamakura",
    "titre": "Île d'Enoshima",
-   "description": "Île avec grottes, sanctuaires et phare.",
+   "description": "Petite île reliée par un pont : grottes marines, sanctuaires, tour d'observation et coucher de soleil sur le Fuji par temps clair.",
    "categorie": "NATURE",
    "dureeH": 3,
    "enfant": true,
@@ -1475,13 +1555,14 @@
    "lon": 139.48,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Enoshima"
   },
   {
    "id": "nikko-toshogu",
    "villeId": "nikko",
    "titre": "Sanctuaire Toshogu",
-   "description": "Sanctuaire richement décoré, singes de la sagesse.",
+   "description": "Le mausolée du shogun Ieyasu, foisonnant de dorures et de sculptures : retrouvez les trois singes de la sagesse et le chat endormi.",
    "categorie": "TEMPLE",
    "dureeH": 2.5,
    "enfant": true,
@@ -1490,13 +1571,14 @@
    "lon": 139.5988,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Nikkō Tōshō-gū"
   },
   {
    "id": "nikko-kegon",
    "villeId": "nikko",
    "titre": "Chutes de Kegon et lac Chuzenji",
-   "description": "Cascade de 97 m et lac de montagne.",
+   "description": "Une cascade de 97 m qu'on admire depuis une plateforme au pied, après un ascenseur dans la roche ; balade au bord du lac Chuzenji.",
    "categorie": "NATURE",
    "dureeH": 3,
    "enfant": true,
@@ -1505,13 +1587,14 @@
    "lon": 139.5025,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Chutes de Kegon"
   },
   {
    "id": "nikko-edo",
    "villeId": "nikko",
    "titre": "Edo Wonderland",
-   "description": "Village d'époque Edo avec ninjas, samouraïs et spectacles.",
+   "description": "Village d'Edo reconstitué : ninjas, samouraïs, théâtre et labyrinthe, on s'y croit vraiment. Location de costumes possible.",
    "categorie": "ATTRACTION",
    "dureeH": 4,
    "enfant": true,
@@ -1520,13 +1603,14 @@
    "lon": 139.713,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Edo Wonderland Nikko Edomura"
   },
   {
    "id": "nagoya-ghibli",
    "villeId": "nagoya",
    "titre": "Parc Ghibli (Nagakute)",
-   "description": "Les univers de Totoro, Mononoké, Kiki… dont le Grand Entrepôt.",
+   "description": "Entrer dans les films de Miyazaki : maison de Totoro, Grand Entrepôt rempli de scènes à reproduire, Vallée des sorcières de Kiki. Billets mis en vente 2 mois avant.",
    "categorie": "ATTRACTION",
    "dureeH": 6,
    "enfant": true,
@@ -1542,13 +1626,14 @@
     "jour": 10,
     "heure": "14:00",
     "note": "Lawson Ticket ou Klook (vente internationale)."
-   }
+   },
+   "photo": "Parc Ghibli"
   },
   {
    "id": "nagoya-scmaglev",
    "villeId": "nagoya",
    "titre": "SCMAGLEV and Railway Park",
-   "description": "Musée des trains : Shinkansen, train à sustentation magnétique, simulateurs.",
+   "description": "Musée JR des trains : le Maglev record de vitesse, des Shinkansen à visiter et une immense maquette animée du jour à la nuit.",
    "categorie": "MUSEE",
    "dureeH": 3,
    "enfant": true,
@@ -1557,13 +1642,14 @@
    "lon": 136.8513,
    "reservation": false,
    "tampon": false,
-   "conseil": "Idéal par temps de pluie."
+   "conseil": "Idéal par temps de pluie.",
+   "photo": "SCMaglev and Railway Park"
   },
   {
    "id": "nagoya-legoland",
    "villeId": "nagoya",
    "titre": "Legoland Japan",
-   "description": "Parc Lego : attractions et Miniland du Japon en briques.",
+   "description": "Parc Lego pensé pour les 2-12 ans : manèges, Miniland du Japon en briques et ateliers de construction.",
    "categorie": "ATTRACTION",
    "dureeH": 6,
    "enfant": true,
@@ -1572,13 +1658,14 @@
    "lon": 136.8434,
    "reservation": false,
    "tampon": false,
-   "conseil": "Plutôt pour les moins de 12 ans."
+   "conseil": "Plutôt pour les moins de 12 ans.",
+   "photo": "Legoland Japan"
   },
   {
    "id": "nagoya-chateau",
    "villeId": "nagoya",
    "titre": "Château de Nagoya",
-   "description": "Château aux dauphins dorés et palais Honmaru.",
+   "description": "Château aux dauphins dorés sur le toit et palais Honmaru reconstruit, avec ses salles couvertes de peintures sur fond d'or.",
    "categorie": "MONUMENT",
    "dureeH": 1.5,
    "enfant": true,
@@ -1587,13 +1674,14 @@
    "lon": 136.8999,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Château de Nagoya"
   },
   {
    "id": "nagoya-osu",
    "villeId": "nagoya",
    "titre": "Quartier d'Osu",
-   "description": "Galeries commerçantes, street food et temple Osu Kannon.",
+   "description": "Quartier populaire autour du temple d'Osu Kannon : galeries marchandes, friperies, boutiques d'otaku et street food.",
    "categorie": "QUARTIER",
    "dureeH": 2,
    "enfant": true,
@@ -1602,13 +1690,14 @@
    "lon": 136.901,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Ōsu (Nagoya)"
   },
   {
    "id": "nagoya-atsuta",
    "villeId": "nagoya",
    "titre": "Atsuta Jingu",
-   "description": "Grand sanctuaire dans une forêt de camphriers.",
+   "description": "Sanctuaire majeur dans une forêt de camphriers, gardien d'une des trois reliques impériales : l'épée sacrée. Goûter les kishimen à l'entrée.",
    "categorie": "TEMPLE",
    "dureeH": 1,
    "enfant": true,
@@ -1617,13 +1706,14 @@
    "lon": 136.9087,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Atsuta-jingū"
   },
   {
    "id": "nagano-zenkoji",
    "villeId": "nagano",
    "titre": "Temple Zenko-ji",
-   "description": "Grand temple : passage dans le noir sous l'autel pour trouver la « clé du paradis ».",
+   "description": "Grand temple où l'on descend dans un couloir totalement noir pour trouver à tâtons la « clé du paradis ». Frissons et fous rires assurés.",
    "categorie": "TEMPLE",
    "dureeH": 2,
    "enfant": true,
@@ -1632,13 +1722,14 @@
    "lon": 138.1876,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Zenkō-ji"
   },
   {
    "id": "nagano-singes",
    "villeId": "nagano",
    "titre": "Singes de Jigokudani",
-   "description": "Macaques qui se baignent dans les sources chaudes (présents toute l'année).",
+   "description": "Les célèbres macaques des neiges qui se baignent dans une source chaude, au bout d'une jolie marche en forêt (en été, ils y viennent moins).",
    "categorie": "NATURE",
    "dureeH": 5,
    "enfant": true,
@@ -1647,13 +1738,14 @@
    "lon": 138.4622,
    "reservation": false,
    "tampon": false,
-   "conseil": "Bus depuis Nagano puis 30 min de marche en forêt ; en juin les singes vont moins dans l'eau."
+   "conseil": "Bus depuis Nagano puis 30 min de marche en forêt ; en juin les singes vont moins dans l'eau.",
+   "photo": "Jigokudani Yaen-kōen"
   },
   {
    "id": "nagano-togakushi",
    "villeId": "nagano",
    "titre": "Togakushi",
-   "description": "Allée de cèdres géants, sanctuaire et musée ninja.",
+   "description": "Allée de cèdres géants de 400 ans menant à un sanctuaire en montagne, village de ninjas (Ninja Karakuri Yashiki) et soba réputées.",
    "categorie": "NATURE",
    "dureeH": 5,
    "enfant": true,
@@ -1662,13 +1754,14 @@
    "lon": 138.087,
    "reservation": false,
    "tampon": true,
-   "conseil": "Bus depuis la gare de Nagano (~1 h)."
+   "conseil": "Bus depuis la gare de Nagano (~1 h).",
+   "photo": "Togakushi"
   },
   {
    "id": "matsumoto-chateau",
    "villeId": "matsumoto",
    "titre": "Château de Matsumoto",
-   "description": "Un des rares châteaux d'origine, surnommé le « château du corbeau ».",
+   "description": "Le « château du Corbeau », noir et élégant, un des cinq châteaux d'origine du Japon, devant les Alpes japonaises. Escaliers en bois très raides !",
    "categorie": "MONUMENT",
    "dureeH": 1.5,
    "enfant": true,
@@ -1677,13 +1770,14 @@
    "lon": 137.9689,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Château de Matsumoto"
   },
   {
    "id": "matsumoto-nakamachi",
    "villeId": "matsumoto",
    "titre": "Nakamachi et Nawate",
-   "description": "Rues d'entrepôts blancs et allée des grenouilles.",
+   "description": "Ruelles aux entrepôts blancs et noirs, et la rue Nawate des grenouilles le long de la rivière : boutiques, rétro et taiyaki.",
    "categorie": "QUARTIER",
    "dureeH": 1.5,
    "enfant": true,
@@ -1692,13 +1786,14 @@
    "lon": 137.971,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Matsumoto"
   },
   {
    "id": "kobe-boeuf",
    "villeId": "kobe",
    "titre": "Déguster le bœuf de Kobe",
-   "description": "Teppanyaki de bœuf de Kobe.",
+   "description": "Goûter le célèbre bœuf de Kobe fondant, grillé sur une plaque devant vous (teppanyaki). Formules déjeuner bien moins chères que le soir.",
    "categorie": "GASTRONOMIE",
    "dureeH": 1.5,
    "enfant": true,
@@ -1707,13 +1802,14 @@
    "lon": 135.1955,
    "reservation": true,
    "tampon": false,
-   "conseil": "Réserver, surtout le soir."
+   "conseil": "Réserver, surtout le soir.",
+   "photo": "Bœuf de Kobe"
   },
   {
    "id": "kobe-harborland",
    "villeId": "kobe",
    "titre": "Harborland et port de Kobe",
-   "description": "Promenade, grande roue et Kobe Port Tower.",
+   "description": "Promenade du port avec tour rouge, grande roue, centre commercial et musée Anpanman, le héros préféré des petits Japonais.",
    "categorie": "QUARTIER",
    "dureeH": 2,
    "enfant": true,
@@ -1722,13 +1818,14 @@
    "lon": 135.185,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Harborland"
   },
   {
    "id": "kobe-kitano",
    "villeId": "kobe",
    "titre": "Kitano Ijinkan",
-   "description": "Anciennes maisons des marchands étrangers sur la colline.",
+   "description": "Anciennes maisons de marchands européens du XIXe siècle à flanc de colline, devenues musées et salons de thé.",
    "categorie": "QUARTIER",
    "dureeH": 2,
    "enfant": false,
@@ -1737,13 +1834,14 @@
    "lon": 135.191,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Kitano-chō"
   },
   {
    "id": "kobe-animal",
    "villeId": "kobe",
    "titre": "Kobe Animal Kingdom",
-   "description": "Parc animalier couvert : capybaras, oiseaux, kangourous.",
+   "description": "Parc couvert pour approcher et nourrir capybaras, kangourous, paresseux et oiseaux : parfait les jours de pluie.",
    "categorie": "ATTRACTION",
    "dureeH": 3,
    "enfant": true,
@@ -1752,13 +1850,14 @@
    "lon": 135.223,
    "reservation": false,
    "tampon": false,
-   "conseil": "Parfait un jour de pluie."
+   "conseil": "Parfait un jour de pluie.",
+   "photo": "Kobe Animal Kingdom"
   },
   {
    "id": "koyasan-okunoin",
    "villeId": "koyasan",
    "titre": "Cimetière Okunoin",
-   "description": "Forêt de cèdres et 200 000 tombes jusqu'au mausolée de Kobo Daishi.",
+   "description": "Le plus grand cimetière du Japon dans une forêt de cèdres millénaires, avec 200 000 tombes moussues jusqu'au mausolée de Kobo Daishi. Magique en fin de journée.",
    "categorie": "TEMPLE",
    "dureeH": 2,
    "enfant": false,
@@ -1767,13 +1866,14 @@
    "lon": 135.603,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Okunoin"
   },
   {
    "id": "koyasan-kongobuji",
    "villeId": "koyasan",
    "titre": "Temple Kongobu-ji",
-   "description": "Siège du bouddhisme Shingon et grand jardin de pierres.",
+   "description": "Siège du bouddhisme Shingon : salles aux portes coulissantes peintes et le plus grand jardin de pierres du Japon, figurant deux dragons.",
    "categorie": "TEMPLE",
    "dureeH": 1,
    "enfant": false,
@@ -1782,13 +1882,14 @@
    "lon": 135.584,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Kongōbu-ji"
   },
   {
    "id": "yokohama-cupnoodles",
    "villeId": "yokohama",
    "titre": "Musée Cup Noodles de Yokohama",
-   "description": "Créer son pot de nouilles et parcourir l'histoire des ramen instantanés.",
+   "description": "On crée et décore son propre Cup Noodles, et on fabrique des nouilles à la main ; une salle de jeu géante façon usine à nouilles.",
    "categorie": "MUSEE",
    "dureeH": 2,
    "enfant": true,
@@ -1797,13 +1898,14 @@
    "lon": 139.6385,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Cupnoodles Museum"
   },
   {
    "id": "yokohama-chinatown",
    "villeId": "yokohama",
    "titre": "Quartier chinois de Yokohama",
-   "description": "Le plus grand quartier chinois du Japon, brioches à la vapeur.",
+   "description": "Le plus grand quartier chinois du Japon : portes colorées, temple de Guan Yu et brioches à la vapeur (nikuman) à chaque pas.",
    "categorie": "GASTRONOMIE",
    "dureeH": 2,
    "enfant": true,
@@ -1812,13 +1914,14 @@
    "lon": 139.6458,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Chinatown de Yokohama"
   },
   {
    "id": "yokohama-minatomirai",
    "villeId": "yokohama",
    "titre": "Minato Mirai",
-   "description": "Front de mer, grande roue Cosmo World et entrepôts en briques rouges.",
+   "description": "Front de mer moderne : grande roue Cosmo Clock, téléphérique urbain au-dessus du port et voilier Nippon Maru.",
    "categorie": "QUARTIER",
    "dureeH": 2,
    "enfant": true,
@@ -1827,13 +1930,14 @@
    "lon": 139.638,
    "reservation": false,
    "tampon": false,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Minato Mirai 21"
   },
   {
    "id": "kawagoe-vieille-ville",
    "villeId": "kawagoe",
    "titre": "Vieille ville de Kawagoe",
-   "description": "Maisons-entrepôts kurazukuri, tour de la cloche et ruelle des bonbons.",
+   "description": "Le « petit Edo » : rue de maisons-entrepôts noires, tour de la cloche en bois et ruelle des bonbons à l'ancienne (Kashiya Yokocho).",
    "categorie": "QUARTIER",
    "dureeH": 3,
    "enfant": true,
@@ -1842,13 +1946,14 @@
    "lon": 139.484,
    "reservation": false,
    "tampon": true,
-   "conseil": ""
+   "conseil": "",
+   "photo": "Kawagoe"
   },
   {
    "id": "tokyo-pokemon-cafe",
    "villeId": "tokyo",
    "titre": "Pokémon Café Tokyo",
-   "description": "Plats et desserts Pokémon, visite de Pikachu, à côté du Pokémon Center DX (Nihonbashi).",
+   "description": "Menus en forme de Pikachu, latte décorés et visite de Pikachu en personne pendant le repas. Réservation en ligne 31 jours avant, à 18 h (heure du Japon).",
    "categorie": "EXPERIENCE",
    "dureeH": 1.5,
    "enfant": true,
@@ -1863,13 +1968,14 @@
     "jours": 31,
     "heure": "18:00",
     "note": "Ouverture environ 1 mois avant à 18 h (heure du Japon), parfois par périodes : vérifier le site officiel."
-   }
+   },
+   "photo": "Pokémon Café"
   },
   {
    "id": "osaka-pokemon-cafe",
    "villeId": "osaka",
    "titre": "Pokémon Café Osaka",
-   "description": "Café Pokémon au 9e étage du Daimaru Shinsaibashi, avec le Pokémon Center.",
+   "description": "Même concept qu'à Tokyo, au cœur d'Osaka : assiettes Pokémon et spectacle de Pikachu. Réservation 31 jours avant, ça part très vite.",
    "categorie": "EXPERIENCE",
    "dureeH": 1.5,
    "enfant": true,
@@ -1884,13 +1990,14 @@
     "jours": 31,
     "heure": "18:00",
     "note": "Ouverture environ 1 mois avant à 18 h (heure du Japon), parfois par périodes : vérifier le site officiel."
-   }
+   },
+   "photo": "Pokémon Café"
   },
   {
    "id": "tokyo-kirby-cafe",
    "villeId": "tokyo",
    "titre": "Kirby Café Tokyo",
-   "description": "Café Kirby au pied de la Skytree (Solamachi, 4e étage).",
+   "description": "Plats et desserts adorables à l'effigie de Kirby, servis dans un décor de Dream Land. Réservation conseillée.",
    "categorie": "EXPERIENCE",
    "dureeH": 1.5,
    "enfant": true,
@@ -1906,13 +2013,14 @@
     "jour": 10,
     "heure": "18:00",
     "note": "Le 10 du mois précédent (à vérifier) ; créer le compte et valider le téléphone avant."
-   }
+   },
+   "photo": "Kirby Café"
   },
   {
    "id": "hitachi-seaside",
    "villeId": "hitachi",
    "titre": "Parc Hitachi Seaside",
-   "description": "Immense parc floral en bord de mer, grande roue et parc d'attractions.",
+   "description": "Immenses collines fleuries au bord de l'océan (célèbres némophiles bleues en mai, kochias rouges en automne) ; en juin, parc très vert, pistes cyclables et grande roue.",
    "categorie": "NATURE",
    "dureeH": 4,
    "enfant": true,
@@ -1921,7 +2029,8 @@
    "lon": 140.594,
    "reservation": false,
    "tampon": false,
-   "conseil": "En juin : roses, fleurs d'été et kochias encore vertes ; les némophiles bleues fleurissent au printemps."
+   "conseil": "En juin : roses, fleurs d'été et kochias encore vertes ; les némophiles bleues fleurissent au printemps.",
+   "photo": "Parc national de Hitachi Seaside"
   }
  ],
  "routes": [

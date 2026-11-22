@@ -411,13 +411,24 @@ for l in lieux:
     assert l["villeId"] in ids, l
     if l["activiteId"]: assert any(a["id"]==l["activiteId"] for a in acts), l
 assert len({l["id"] for l in lieux})==len(lieux)
+# Descriptions qui donnent envie + terme de recherche de la photo (outils/accroches.py)
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from accroches import ACCROCHES
+for _a in acts:
+    if _a["id"] in ACCROCHES:
+        _a["description"], _a["photo"] = ACCROCHES[_a["id"]]
+
 # ---------------------------------------------------------------------------
 # Version, date de vérification et journal des changements (affiché dans l'appli : « Informations mises à jour »)
 # À chaque publication : incrémenter VERSION, mettre VERIFIE à la date du jour, ajouter une entrée à CHANGEMENTS.
 # ---------------------------------------------------------------------------
-VERSION = 10
+VERSION = 11
 VERIFIE = "2026-11-22"
 CHANGEMENTS = [
+ {"version":11,"date":"2026-11-22","textes":[
+   "Nouvelles descriptions pour les 102 suggestions de visites, et photos des lieux téléchargeables (carte interactive).",
+ ]},
  {"version":10,"date":"2026-11-22","textes":[
    "Mise en place de la mise à jour automatique des informations (lieux, trains, fêtes) dès que l'appli est en ligne.",
    "Fêtes et saisons de juin 2027 vérifiées : dates 2027 encore non publiées pour Sanno Matsuri, Torigoe Matsuri et le train des hortensias de Hakone.",

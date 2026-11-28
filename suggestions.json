@@ -1,7 +1,14 @@
 {
- "version": 17,
+ "version": 18,
  "verifie": "2026-11-28",
  "changements": [
+  {
+   "version": 18,
+   "date": "2026-11-28",
+   "textes": [
+    "Trajet détaillé aéroport du Kansai → Hiroshima (Haruka puis Shinkansen, ~2 h 45 porte-à-porte)."
+   ]
+  },
   {
    "version": 17,
    "date": "2026-11-28",
@@ -3774,6 +3781,43 @@
     "dirj": "直島（宮浦）",
     "dirR": "Uno",
     "dirRj": "宇野"
+   }
+  ],
+  "aeroport:KIX>hiroshima": [
+   {
+    "m": "train",
+    "l": "Limited Express Haruka",
+    "lj": "特急はるか",
+    "d": "Kansai-Airport",
+    "dj": "関西空港",
+    "a": "Shin-Osaka",
+    "aj": "新大阪",
+    "t": 50,
+    "jr": "oui",
+    "p": 3300,
+    "note": "",
+    "dir": "Kyoto",
+    "dirj": "京都",
+    "dirR": "Kansai-Airport",
+    "dirRj": "関西空港"
+   },
+   {
+    "m": "shinkansen",
+    "l": "Sanyo Shinkansen Sakura / Nozomi",
+    "lj": "山陽新幹線 さくら・のぞみ",
+    "d": "Shin-Osaka",
+    "dj": "新大阪",
+    "a": "Hiroshima",
+    "aj": "広島",
+    "t": 85,
+    "jr": "oui",
+    "p": 10620,
+    "note": "La Sakura (さくら) est couverte par le JR Pass ; la Nozomi demande un supplément.",
+    "n": 2,
+    "dir": "Hiroshima / Hakata",
+    "dirj": "広島・博多方面",
+    "dirR": "Shin-Osaka",
+    "dirRj": "新大阪"
    }
   ],
   "aeroport:KIX>naoshima": [

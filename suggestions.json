@@ -1,7 +1,47 @@
 {
- "version": 12,
- "verifie": "2026-11-22",
+ "version": 17,
+ "verifie": "2026-11-28",
  "changements": [
+  {
+   "version": 17,
+   "date": "2026-11-28",
+   "textes": [
+    "Naoshima ajoutée (île de l'art) : trajets détaillés depuis l'aéroport du Kansai, Osaka, Kyoto, Hiroshima et Tokyo, et trois visites.",
+    "Durées de trajet porte-à-porte : correspondances et accès aux gares compris, comme sur Google Maps.",
+    "Photos des villes corrigées (Kobe affichait une mauvaise photo)."
+   ]
+  },
+  {
+   "version": 16,
+   "date": "2026-11-22",
+   "textes": [
+    "Tampons : où trouver les tampons de gares, des sites, des châteaux et les goshuin dans chaque ville."
+   ]
+  },
+  {
+   "version": 15,
+   "date": "2026-11-22",
+   "textes": [
+    "Sur place : plans de métro et de bus à télécharger (Tokyo, Osaka, Kyoto, Hiroshima).",
+    "Sur place : guide de l'envoi de bagages (takkyūbin) et des tampons (gares, goshuin)."
+   ]
+  },
+  {
+   "version": 14,
+   "date": "2026-11-22",
+   "textes": [
+    "Sur place : nouvelle rubrique « Us et coutumes » (poubelles, pourboire, chaussures, tatouages, onsen, trains…).",
+    "Trajets : côté des escalators selon la ville et heures de pointe."
+   ]
+  },
+  {
+   "version": 13,
+   "date": "2026-11-22",
+   "textes": [
+    "Météo : climat moyen de juin pour chaque ville (au-delà de 16 jours de prévisions).",
+    "Urgences : numéros utiles (110, 119, Japan Visitor Hotline, ambassade de France)."
+   ]
+  },
   {
    "version": 12,
    "date": "2026-11-22",
@@ -39,6 +79,7 @@
    "bases": "",
    "trajetH": 0,
    "description": "Ville gourmande et animée, porte d'entrée par l'aéroport du Kansai.",
+   "photo": "Osaka",
    "acces": ""
   },
   {
@@ -53,6 +94,7 @@
    "bases": "",
    "trajetH": 0,
    "description": "Ancienne capitale : temples, jardins et quartiers traditionnels.",
+   "photo": "Kyoto",
    "acces": ""
   },
   {
@@ -67,6 +109,7 @@
    "bases": "kyoto,osaka",
    "trajetH": 0.75,
    "description": "Daims en liberté et grands temples, idéal en excursion.",
+   "photo": "Nara (ville)",
    "acces": "Depuis Kyoto : JR Nara Line (~45 min). Depuis Osaka : Kintetsu (~40 min)."
   },
   {
@@ -81,6 +124,7 @@
    "bases": "kyoto,osaka",
    "trajetH": 0.5,
    "description": "Ville du thé matcha et du Nintendo Museum.",
+   "photo": "Uji (Kyoto)",
    "acces": "Depuis Kyoto : JR Nara Line jusqu'à Uji (~20 min). Nintendo Museum : Kintetsu jusqu'à Ogura (~20 min)."
   },
   {
@@ -95,6 +139,7 @@
    "bases": "osaka,kyoto,hiroshima",
    "trajetH": 1.0,
    "description": "Le plus beau château du Japon.",
+   "photo": "Château de Himeji",
    "acces": "Shinkansen depuis Shin-Osaka (~30 min) ou JR Special Rapid depuis Osaka (~1 h)."
   },
   {
@@ -109,6 +154,7 @@
    "bases": "",
    "trajetH": 0,
    "description": "Ville de la paix et de l'okonomiyaki.",
+   "photo": "Hiroshima",
    "acces": ""
   },
   {
@@ -123,7 +169,23 @@
    "bases": "hiroshima",
    "trajetH": 0.75,
    "description": "Île sacrée au torii flottant.",
+   "photo": "Itsukushima-jinja",
    "acces": "JR depuis Hiroshima jusqu'à Miyajimaguchi (~30 min), puis ferry (~10 min)."
+  },
+  {
+   "id": "naoshima",
+   "nom": "Naoshima",
+   "nomJaponais": "直島",
+   "region": "Setouchi",
+   "lat": 34.4592,
+   "lon": 133.9956,
+   "ordre": 7,
+   "dormirSurPlace": true,
+   "bases": "",
+   "trajetH": 0,
+   "description": "Île de l'art contemporain sur la mer intérieure : musées de Tadao Ando, citrouilles de Yayoi Kusama.",
+   "photo": "Naoshima",
+   "acces": "Shinkansen jusqu'à Okayama, JR Uno Line jusqu'à Uno (~55 min, parfois changement à Chayamachi), puis ferry pour Miyanoura (~20 min, environ toutes les heures)."
   },
   {
    "id": "kanazawa",
@@ -137,6 +199,7 @@
    "bases": "",
    "trajetH": 0,
    "description": "Jardins, maisons de thé et feuille d'or.",
+   "photo": "Kanazawa",
    "acces": ""
   },
   {
@@ -151,6 +214,7 @@
    "bases": "takayama,kanazawa",
    "trajetH": 1.25,
    "description": "Village de fermes aux toits de chaume.",
+   "photo": "Shirakawa-gō",
    "acces": "Bus Nohi depuis Takayama (~50 min) ou Kanazawa (~1 h 15), à réserver."
   },
   {
@@ -165,6 +229,7 @@
    "bases": "",
    "trajetH": 0,
    "description": "Vieille ville de montagne en bois.",
+   "photo": "Takayama (Gifu)",
    "acces": ""
   },
   {
@@ -179,6 +244,7 @@
    "bases": "",
    "trajetH": 0,
    "description": "Lac au pied du mont Fuji.",
+   "photo": "Lac Kawaguchi",
    "acces": ""
   },
   {
@@ -193,6 +259,7 @@
    "bases": "",
    "trajetH": 0,
    "description": "Montagnes, onsen et vues sur le Fuji.",
+   "photo": "Hakone",
    "acces": ""
   },
   {
@@ -207,6 +274,7 @@
    "bases": "tokyo",
    "trajetH": 1.0,
    "description": "Grand Bouddha et temples en bord de mer.",
+   "photo": "Kamakura",
    "acces": "JR Yokosuka Line depuis Tokyo (~1 h)."
   },
   {
@@ -221,6 +289,7 @@
    "bases": "tokyo",
    "trajetH": 2.0,
    "description": "Sanctuaires dans la forêt et cascades.",
+   "photo": "Nikkō",
    "acces": "Tobu Limited Express depuis Asakusa (~2 h), ou Shinkansen jusqu'à Utsunomiya puis JR Nikko Line."
   },
   {
@@ -235,6 +304,7 @@
    "bases": "",
    "trajetH": 0,
    "description": "Mégapole : quartiers contrastés, musées immersifs, pop culture.",
+   "photo": "Tokyo",
    "acces": ""
   },
   {
@@ -249,6 +319,7 @@
    "bases": "",
    "trajetH": 0,
    "description": "Grande ville du centre, porte d'entrée du parc Ghibli.",
+   "photo": "Nagoya",
    "acces": ""
   },
   {
@@ -263,6 +334,7 @@
    "bases": "",
    "trajetH": 0,
    "description": "Montagnes des Alpes japonaises, temple Zenko-ji et singes des neiges.",
+   "photo": "Nagano (ville)",
    "acces": ""
   },
   {
@@ -277,6 +349,7 @@
    "bases": "nagano,takayama",
    "trajetH": 1.0,
    "description": "Château noir original et vieille ville.",
+   "photo": "Château de Matsumoto",
    "acces": "Express Shinano depuis Nagano (~50 min) ; bus depuis Takayama (~2 h 30)."
   },
   {
@@ -291,6 +364,7 @@
    "bases": "osaka,kyoto",
    "trajetH": 0.5,
    "description": "Port cosmopolite, bœuf de Kobe.",
+   "photo": "Kōbe",
    "acces": "JR depuis Osaka (~25 min) ou Kyoto (~50 min)."
   },
   {
@@ -305,6 +379,7 @@
    "bases": "osaka",
    "trajetH": 2.0,
    "description": "Montagne sacrée aux 100 temples.",
+   "photo": "Kōya-san",
    "acces": "Nankai depuis Namba jusqu'à Gokurakubashi, puis funiculaire et bus (~2 h)."
   },
   {
@@ -319,6 +394,7 @@
    "bases": "tokyo",
    "trajetH": 0.75,
    "description": "Port moderne, quartier chinois et musée Cup Noodles.",
+   "photo": "Yokohama",
    "acces": "JR ou Tokyu depuis Tokyo / Shibuya (~30-40 min)."
   },
   {
@@ -333,6 +409,7 @@
    "bases": "tokyo",
    "trajetH": 0.75,
    "description": "« Petit Edo » : maisons-entrepôts et ruelle des bonbons.",
+   "photo": "Kawagoe (Saitama)",
    "acces": "Tobu Tojo Line depuis Ikebukuro (~30 min)."
   },
   {
@@ -347,6 +424,7 @@
    "bases": "tokyo",
    "trajetH": 1.75,
    "description": "Parc floral en bord de mer.",
+   "photo": "Parc maritime national de Hitachi",
    "acces": "Train jusqu'à Katsuta (~1 h 15 depuis Shinagawa), puis bus jusqu'au parc (~15-20 min)."
   }
  ],
@@ -950,6 +1028,51 @@
    "conseil": "",
    "resume": "Téléphérique et randonnée jusqu'au sommet, vue sur la mer intérieure.",
    "photo": "Mont Misen"
+  },
+  {
+   "id": "naoshima-chichu",
+   "villeId": "naoshima",
+   "titre": "Chichu Art Museum",
+   "description": "Musée enterré de Tadao Ando : Monet, James Turrell, Walter De Maria.",
+   "categorie": "MUSEE",
+   "dureeH": 2,
+   "enfant": true,
+   "interieur": true,
+   "lat": 34.4497,
+   "lon": 133.9908,
+   "reservation": true,
+   "tampon": false,
+   "conseil": "Billet à heure fixe à réserver en ligne ; fermé le lundi (vérifier le calendrier)."
+  },
+  {
+   "id": "naoshima-benesse",
+   "villeId": "naoshima",
+   "titre": "Benesse House Museum et citrouille jaune",
+   "description": "Musée au bord de l'eau et la citrouille de Yayoi Kusama sur le ponton.",
+   "categorie": "MUSEE",
+   "dureeH": 2,
+   "enfant": true,
+   "interieur": false,
+   "lat": 34.454,
+   "lon": 133.995,
+   "reservation": false,
+   "tampon": false,
+   "conseil": "Navette gratuite depuis Tsutsuji-so ; fermé certains lundis."
+  },
+  {
+   "id": "naoshima-honmura",
+   "villeId": "naoshima",
+   "titre": "Art House Project (Honmura)",
+   "description": "Maisons du vieux village transformées en œuvres d'art.",
+   "categorie": "QUARTIER",
+   "dureeH": 2,
+   "enfant": true,
+   "interieur": false,
+   "lat": 34.4625,
+   "lon": 134.0095,
+   "reservation": false,
+   "tampon": false,
+   "conseil": "Billet combiné en vente à Honmura ; certaines maisons demandent un créneau."
   },
   {
    "id": "kanazawa-kenrokuen",
@@ -3437,6 +3560,293 @@
     "dirRj": "三島駅北口"
    }
   ],
+  "osaka>naoshima": [
+   {
+    "m": "shinkansen",
+    "l": "Sanyo Shinkansen Sakura / Nozomi",
+    "lj": "山陽新幹線 さくら・のぞみ",
+    "d": "Shin-Osaka",
+    "dj": "新大阪",
+    "a": "Okayama",
+    "aj": "岡山",
+    "t": 45,
+    "jr": "oui",
+    "p": 6000,
+    "note": "Sakura ou Hikari : couvertes par le JR Pass ; Nozomi avec supplément.",
+    "n": 1,
+    "dir": "Okayama / Hakata",
+    "dirj": "岡山・博多方面",
+    "dirR": "Shin-Osaka",
+    "dirRj": "新大阪"
+   },
+   {
+    "m": "train",
+    "l": "JR Uno Line (Seto Ohashi / Uno Minato)",
+    "lj": "JR 宇野線（宇野みなと線）",
+    "d": "Okayama",
+    "dj": "岡山",
+    "a": "Uno",
+    "aj": "宇野",
+    "t": 55,
+    "jr": "oui",
+    "p": 590,
+    "note": "Train direct ou changement à Chayamachi (茶屋町) selon l'heure : le Marine Liner va à Chayamachi, puis train local pour Uno.",
+    "dir": "Uno / Chayamachi",
+    "dirj": "宇野・茶屋町方面",
+    "dirR": "Okayama",
+    "dirRj": "岡山"
+   },
+   {
+    "m": "bateau",
+    "l": "Ferry Shikoku Kisen Uno – Miyanoura",
+    "lj": "四国汽船 宇野〜宮浦",
+    "d": "Uno (port, 3 min à pied de la gare)",
+    "dj": "宇野港",
+    "a": "Naoshima (Miyanoura)",
+    "aj": "直島 宮浦港",
+    "t": 20,
+    "jr": "non",
+    "p": 300,
+    "note": "Environ un ferry par heure : vérifiez l'horaire (Shikoku Kisen) et prévoyez l'attente.",
+    "dir": "Naoshima (Miyanoura)",
+    "dirj": "直島（宮浦）",
+    "dirR": "Uno",
+    "dirRj": "宇野"
+   }
+  ],
+  "kyoto>naoshima": [
+   {
+    "m": "shinkansen",
+    "l": "Sanyo Shinkansen Nozomi / Hikari",
+    "lj": "山陽新幹線 のぞみ・ひかり",
+    "d": "Kyoto",
+    "dj": "京都",
+    "a": "Okayama",
+    "aj": "岡山",
+    "t": 65,
+    "jr": "supplement",
+    "p": 7000,
+    "note": "Avec le JR Pass : prendre une Hikari (ひかり), sans supplément, ou payer le supplément Nozomi.",
+    "n": 2,
+    "dir": "Okayama / Hakata",
+    "dirj": "岡山・博多方面",
+    "dirR": "Kyoto / Tokyo",
+    "dirRj": "京都・東京方面"
+   },
+   {
+    "m": "train",
+    "l": "JR Uno Line (Seto Ohashi / Uno Minato)",
+    "lj": "JR 宇野線（宇野みなと線）",
+    "d": "Okayama",
+    "dj": "岡山",
+    "a": "Uno",
+    "aj": "宇野",
+    "t": 55,
+    "jr": "oui",
+    "p": 590,
+    "note": "Train direct ou changement à Chayamachi (茶屋町) selon l'heure : le Marine Liner va à Chayamachi, puis train local pour Uno.",
+    "dir": "Uno / Chayamachi",
+    "dirj": "宇野・茶屋町方面",
+    "dirR": "Okayama",
+    "dirRj": "岡山"
+   },
+   {
+    "m": "bateau",
+    "l": "Ferry Shikoku Kisen Uno – Miyanoura",
+    "lj": "四国汽船 宇野〜宮浦",
+    "d": "Uno (port, 3 min à pied de la gare)",
+    "dj": "宇野港",
+    "a": "Naoshima (Miyanoura)",
+    "aj": "直島 宮浦港",
+    "t": 20,
+    "jr": "non",
+    "p": 300,
+    "note": "Environ un ferry par heure : vérifiez l'horaire (Shikoku Kisen) et prévoyez l'attente.",
+    "dir": "Naoshima (Miyanoura)",
+    "dirj": "直島（宮浦）",
+    "dirR": "Uno",
+    "dirRj": "宇野"
+   }
+  ],
+  "hiroshima>naoshima": [
+   {
+    "m": "shinkansen",
+    "l": "Sanyo Shinkansen Sakura / Nozomi",
+    "lj": "山陽新幹線 さくら・のぞみ",
+    "d": "Hiroshima",
+    "dj": "広島",
+    "a": "Okayama",
+    "aj": "岡山",
+    "t": 36,
+    "jr": "oui",
+    "p": 6000,
+    "note": "",
+    "n": 1,
+    "dir": "Okayama / Shin-Osaka",
+    "dirj": "岡山・新大阪方面",
+    "dirR": "Hiroshima / Hakata",
+    "dirRj": "広島・博多方面"
+   },
+   {
+    "m": "train",
+    "l": "JR Uno Line (Seto Ohashi / Uno Minato)",
+    "lj": "JR 宇野線（宇野みなと線）",
+    "d": "Okayama",
+    "dj": "岡山",
+    "a": "Uno",
+    "aj": "宇野",
+    "t": 55,
+    "jr": "oui",
+    "p": 590,
+    "note": "Train direct ou changement à Chayamachi (茶屋町) selon l'heure : le Marine Liner va à Chayamachi, puis train local pour Uno.",
+    "dir": "Uno / Chayamachi",
+    "dirj": "宇野・茶屋町方面",
+    "dirR": "Okayama",
+    "dirRj": "岡山"
+   },
+   {
+    "m": "bateau",
+    "l": "Ferry Shikoku Kisen Uno – Miyanoura",
+    "lj": "四国汽船 宇野〜宮浦",
+    "d": "Uno (port, 3 min à pied de la gare)",
+    "dj": "宇野港",
+    "a": "Naoshima (Miyanoura)",
+    "aj": "直島 宮浦港",
+    "t": 20,
+    "jr": "non",
+    "p": 300,
+    "note": "Environ un ferry par heure : vérifiez l'horaire (Shikoku Kisen) et prévoyez l'attente.",
+    "dir": "Naoshima (Miyanoura)",
+    "dirj": "直島（宮浦）",
+    "dirR": "Uno",
+    "dirRj": "宇野"
+   }
+  ],
+  "tokyo>naoshima": [
+   {
+    "m": "shinkansen",
+    "l": "Tokaido-Sanyo Shinkansen Nozomi",
+    "lj": "東海道・山陽新幹線 のぞみ",
+    "d": "Tokyo",
+    "dj": "東京",
+    "a": "Okayama",
+    "aj": "岡山",
+    "t": 195,
+    "jr": "supplement",
+    "p": 17500,
+    "note": "Avec le JR Pass : prendre une Hikari (ひかり), sans supplément, ou payer le supplément Nozomi.",
+    "n": 5,
+    "dir": "Okayama / Hakata",
+    "dirj": "岡山・博多方面",
+    "dirR": "Tokyo",
+    "dirRj": "東京"
+   },
+   {
+    "m": "train",
+    "l": "JR Uno Line (Seto Ohashi / Uno Minato)",
+    "lj": "JR 宇野線（宇野みなと線）",
+    "d": "Okayama",
+    "dj": "岡山",
+    "a": "Uno",
+    "aj": "宇野",
+    "t": 55,
+    "jr": "oui",
+    "p": 590,
+    "note": "Train direct ou changement à Chayamachi (茶屋町) selon l'heure : le Marine Liner va à Chayamachi, puis train local pour Uno.",
+    "dir": "Uno / Chayamachi",
+    "dirj": "宇野・茶屋町方面",
+    "dirR": "Okayama",
+    "dirRj": "岡山"
+   },
+   {
+    "m": "bateau",
+    "l": "Ferry Shikoku Kisen Uno – Miyanoura",
+    "lj": "四国汽船 宇野〜宮浦",
+    "d": "Uno (port, 3 min à pied de la gare)",
+    "dj": "宇野港",
+    "a": "Naoshima (Miyanoura)",
+    "aj": "直島 宮浦港",
+    "t": 20,
+    "jr": "non",
+    "p": 300,
+    "note": "Environ un ferry par heure : vérifiez l'horaire (Shikoku Kisen) et prévoyez l'attente.",
+    "dir": "Naoshima (Miyanoura)",
+    "dirj": "直島（宮浦）",
+    "dirR": "Uno",
+    "dirRj": "宇野"
+   }
+  ],
+  "aeroport:KIX>naoshima": [
+   {
+    "m": "train",
+    "l": "Limited Express Haruka",
+    "lj": "特急はるか",
+    "d": "Kansai-Airport",
+    "dj": "関西空港",
+    "a": "Shin-Osaka",
+    "aj": "新大阪",
+    "t": 50,
+    "jr": "oui",
+    "p": 3300,
+    "note": "",
+    "dir": "Kyoto",
+    "dirj": "京都",
+    "dirR": "Kansai-Airport",
+    "dirRj": "関西空港"
+   },
+   {
+    "m": "shinkansen",
+    "l": "Sanyo Shinkansen Sakura / Nozomi",
+    "lj": "山陽新幹線 さくら・のぞみ",
+    "d": "Shin-Osaka",
+    "dj": "新大阪",
+    "a": "Okayama",
+    "aj": "岡山",
+    "t": 45,
+    "jr": "oui",
+    "p": 6000,
+    "note": "",
+    "n": 1,
+    "dir": "Okayama / Hakata",
+    "dirj": "岡山・博多方面",
+    "dirR": "Shin-Osaka",
+    "dirRj": "新大阪"
+   },
+   {
+    "m": "train",
+    "l": "JR Uno Line (Seto Ohashi / Uno Minato)",
+    "lj": "JR 宇野線（宇野みなと線）",
+    "d": "Okayama",
+    "dj": "岡山",
+    "a": "Uno",
+    "aj": "宇野",
+    "t": 55,
+    "jr": "oui",
+    "p": 590,
+    "note": "Train direct ou changement à Chayamachi (茶屋町) selon l'heure : le Marine Liner va à Chayamachi, puis train local pour Uno.",
+    "dir": "Uno / Chayamachi",
+    "dirj": "宇野・茶屋町方面",
+    "dirR": "Okayama",
+    "dirRj": "岡山"
+   },
+   {
+    "m": "bateau",
+    "l": "Ferry Shikoku Kisen Uno – Miyanoura",
+    "lj": "四国汽船 宇野〜宮浦",
+    "d": "Uno (port, 3 min à pied de la gare)",
+    "dj": "宇野港",
+    "a": "Naoshima (Miyanoura)",
+    "aj": "直島 宮浦港",
+    "t": 20,
+    "jr": "non",
+    "p": 300,
+    "note": "Environ un ferry par heure : vérifiez l'horaire (Shikoku Kisen) et prévoyez l'attente.",
+    "dir": "Naoshima (Miyanoura)",
+    "dirj": "直島（宮浦）",
+    "dirR": "Uno",
+    "dirRj": "宇野"
+   }
+  ],
   "aeroport:KIX>osaka": [
    {
     "m": "train",
@@ -4078,5 +4488,708 @@
    "sur": true,
    "adresse": ""
   }
- ]
+ ],
+ "climat_juin": {
+  "tokyo": [
+   26.5,
+   19.0,
+   75,
+   12
+  ],
+  "yokohama": [
+   25.4,
+   19.4,
+   79,
+   12
+  ],
+  "kamakura": [
+   25.4,
+   19.4,
+   79,
+   12
+  ],
+  "kawagoe": [
+   26.8,
+   18.6,
+   77,
+   12
+  ],
+  "osaka": [
+   27.8,
+   20.0,
+   69,
+   11
+  ],
+  "kyoto": [
+   28.1,
+   19.4,
+   70,
+   12
+  ],
+  "uji": [
+   28.0,
+   19.2,
+   71,
+   12
+  ],
+  "nara": [
+   27.6,
+   18.6,
+   75,
+   12
+  ],
+  "kobe": [
+   27.2,
+   20.4,
+   72,
+   11
+  ],
+  "himeji": [
+   27.5,
+   19.2,
+   72,
+   11
+  ],
+  "hiroshima": [
+   27.0,
+   19.6,
+   76,
+   12
+  ],
+  "miyajima": [
+   26.5,
+   19.8,
+   78,
+   12
+  ],
+  "naoshima": [
+   27.4,
+   20.2,
+   73,
+   11
+  ],
+  "nagoya": [
+   27.6,
+   19.6,
+   72,
+   12
+  ],
+  "kanazawa": [
+   26.2,
+   18.3,
+   75,
+   11
+  ],
+  "shirakawago": [
+   25.5,
+   16.5,
+   80,
+   14
+  ],
+  "takayama": [
+   25.6,
+   15.6,
+   79,
+   13
+  ],
+  "nagano": [
+   26.6,
+   16.6,
+   74,
+   10
+  ],
+  "matsumoto": [
+   26.6,
+   16.5,
+   72,
+   11
+  ],
+  "hakone": [
+   21.0,
+   15.0,
+   90,
+   14
+  ],
+  "kawaguchiko": [
+   24.6,
+   15.4,
+   79,
+   12
+  ],
+  "nikko": [
+   23.5,
+   15.5,
+   85,
+   14
+  ],
+  "koyasan": [
+   22.5,
+   14.5,
+   88,
+   15
+  ],
+  "hitachi": [
+   24.0,
+   17.6,
+   85,
+   11
+  ]
+ },
+ "urgences": [
+  {
+   "titre": "Police",
+   "numero": "110",
+   "texte": "Accident, vol, agression. Gratuit, 24 h/24."
+  },
+  {
+   "titre": "Ambulance / pompiers",
+   "numero": "119",
+   "texte": "Urgence médicale ou incendie. Gratuit, 24 h/24 ; interprétariat possible."
+  },
+  {
+   "titre": "Japan Visitor Hotline (JNTO)",
+   "numero": "050-3816-2787",
+   "texte": "Aide aux voyageurs 24 h/24 en anglais : accident, maladie, catastrophe naturelle, renseignements."
+  },
+  {
+   "titre": "Ambassade de France (Tokyo)",
+   "numero": "+81-3-5798-6000",
+   "texte": "Urgence grave, accident, perte de passeport. 4-11-44 Minami-Azabu, Minato-ku, Tokyo."
+  },
+  {
+   "titre": "France Consulaire (urgences)",
+   "numero": "+33-2-14-69-00-01",
+   "texte": "Ligne d'urgence du ministère des Affaires étrangères, joignable depuis l'étranger."
+  },
+  {
+   "titre": "Consulat général de France à Kyoto",
+   "numero": "",
+   "texte": "8 Izumidono-cho, Yoshida, Sakyo-ku, Kyoto. Coordonnées à jour : kyoto.consulfrance.org",
+   "site": "https://kyoto.consulfrance.org/"
+  },
+  {
+   "titre": "Conseil médical non urgent",
+   "numero": "#7119",
+   "texte": "Pour savoir s'il faut appeler une ambulance (selon les régions, en japonais)."
+  }
+ ],
+ "coutumes": [
+  {
+   "id": "poubelles",
+   "emoji": "🗑️",
+   "titre": "Poubelles : il y en a très peu",
+   "erreur": true,
+   "texte": "Les poubelles publiques sont rares dans la rue, même à Tokyo, Kyoto ou Nara. On garde ses déchets avec soi (prévoir un petit sac par personne) jusqu'à l'hôtel ou une poubelle de konbini, de gare, de toilettes publiques ou à côté des distributeurs (ces dernières sont réservées aux canettes et bouteilles).\nLe tri est respecté : 燃えるゴミ (moeru gomi, déchets brûlables : papiers, emballages, restes), ペットボトル (bouteilles plastique, sans bouchon ni étiquette si indiqué), かん・びん (canettes et verre). À Nara, ne laissez rien traîner : les daims mangent les sacs plastique."
+  },
+  {
+   "id": "pourboire",
+   "emoji": "💴",
+   "titre": "Pas de pourboire",
+   "erreur": true,
+   "texte": "Le pourboire ne se pratique pas : le service est compris et laisser de l'argent met souvent le personnel mal à l'aise (il viendra vous le rendre). Un « arigatō gozaimasu » sincère suffit. À la caisse, posez l'argent ou la carte dans le petit plateau prévu plutôt que dans la main."
+  },
+  {
+   "id": "saluer",
+   "emoji": "🙇",
+   "titre": "Dire bonjour et merci",
+   "erreur": false,
+   "texte": "On se salue par une légère inclinaison de la tête et du buste, sans bise ni accolade (la poignée de main reste rare). Mots utiles : おはようございます ohayō gozaimasu (bonjour, le matin), こんにちは konnichiwa (bonjour), ありがとうございます arigatō gozaimasu (merci), すみません sumimasen (pardon / excusez-moi, aussi pour appeler un serveur). On tend et reçoit un objet ou une carte à deux mains. En entrant dans un magasin, le personnel lance « irasshaimase » : pas besoin de répondre, un sourire ou un signe de tête suffit."
+  },
+  {
+   "id": "chaussures",
+   "emoji": "👟",
+   "titre": "Où enlever ses chaussures",
+   "erreur": true,
+   "texte": "On se déchausse : dans les maisons, ryokan et certaines auberges, les salles des temples, les restaurants à tatami, certains musées et châteaux (on vous donne un sac pour les porter), les cabines d'essayage. Le signe : une marche à l'entrée (genkan), une rangée de chaussons ou d'étagères à chaussures.\nJamais de chaussons sur un tatami : on y marche en chaussettes. Les chaussons spéciaux des toilettes restent dans les toilettes (erreur très fréquente !). Prévoir des chaussures faciles à enlever et des chaussettes sans trou."
+  },
+  {
+   "id": "tatouages",
+   "emoji": "🐉",
+   "titre": "Tatouages",
+   "erreur": true,
+   "texte": "Les tatouages visibles peuvent être refusés dans les onsen, sento, piscines et salles de sport, et les règles varient d'un établissement à l'autre. Un petit tatouage peut souvent être caché par un patch ou un pansement ; sinon, cherchez les lieux « tattoo-friendly » ou réservez un bain privatif (貸切風呂 kashikiri-buro). Dans la rue, aucun problème."
+  },
+  {
+   "id": "onsen",
+   "emoji": "♨️",
+   "titre": "Bains (onsen) : les règles",
+   "erreur": true,
+   "texte": "On entre nu (pas de maillot), après s'être lavé et rincé entièrement, assis sur un tabouret aux douches. La petite serviette ne va jamais dans l'eau (on la pose sur la tête ou au bord), les cheveux longs sont attachés, on ne nage pas, on ne fait pas de photos. Les bains sont séparés hommes (男, rideau souvent bleu) / femmes (女, rideau souvent rouge) ; à partir d'environ 7 ans, les enfants vont dans le bain de leur sexe, donc une fille de 11 ans va côté femmes. Buvez de l'eau, et sortez si vous avez la tête qui tourne."
+  },
+  {
+   "id": "train",
+   "emoji": "🚆",
+   "titre": "Dans les trains et le métro",
+   "erreur": true,
+   "texte": "On parle bas et on ne téléphone pas (téléphone en mode silencieux, « manner mode »). Sac à dos porté devant ou posé dans le filet. On fait la queue aux marques au sol sur le quai et on laisse descendre avant de monter. Les sièges prioritaires (優先席) sont laissés aux personnes âgées, enceintes, handicapées. En semaine le matin, certaines voitures sont réservées aux femmes (女性専用車, marquage rose) : les hommes n'y montent pas.\nOn ne mange pas dans le métro ni les trains de banlieue ; dans le shinkansen et les trains express, c'est normal (ekiben). Shinkansen Tokaido/Sanyo/Kyushu : une valise dont les 3 dimensions dépassent 160 cm demande une place réservée avec espace bagages."
+  },
+  {
+   "id": "marcher",
+   "emoji": "🍡",
+   "titre": "Ne pas manger en marchant",
+   "erreur": true,
+   "texte": "Manger ou boire en marchant est mal vu, et des rues très touristiques (Asakusa, Kamakura, Nishiki à Kyoto…) demandent de consommer sur place, devant le stand ou dans l'espace prévu. Au konbini, on mange devant le magasin ou au coin repas, puis on jette ses déchets dans leurs poubelles."
+  },
+  {
+   "id": "baguettes",
+   "emoji": "🥢",
+   "titre": "À table",
+   "erreur": true,
+   "texte": "Ne plantez pas les baguettes debout dans le riz et ne passez pas un aliment de baguettes à baguettes : ces gestes rappellent les funérailles. Posez-les sur le repose-baguettes, ne pointez personne avec. Aspirer bruyamment ses nouilles est normal. Avant de manger : いただきます itadakimasu ; après : ごちそうさまでした gochisōsama deshita. On paie en général à la caisse en sortant, avec le ticket laissé sur la table."
+  },
+  {
+   "id": "photos",
+   "emoji": "📸",
+   "titre": "Photos : Gion, temples, personnes",
+   "erreur": true,
+   "texte": "À Gion (Kyoto), les photos sont interdites dans les ruelles privées signalées par des panneaux, avec une amende possible ; ne suivez jamais une geiko ou une maiko pour la photographier. Dans beaucoup de temples, les photos sont interdites à l'intérieur des pavillons. On demande avant de photographier quelqu'un de près, et on évite de bloquer une rue ou un passage pour une photo. Drones interdits dans la plupart des lieux touristiques."
+  },
+  {
+   "id": "temples",
+   "emoji": "⛩️",
+   "titre": "Temples et sanctuaires",
+   "erreur": false,
+   "texte": "À la fontaine (手水舎 chōzuya) : on rince la main gauche, puis la droite, puis on verse un peu d'eau dans sa main pour se rincer la bouche (jamais directement à la louche). Au sanctuaire shinto (torii) : pièce, 2 saluts, 2 claquements de mains, prière, 1 salut. Au temple bouddhiste : on joint les mains en silence, sans claquer. On parle bas et on reste sur les chemins."
+  },
+  {
+   "id": "nara",
+   "emoji": "🦌",
+   "titre": "Les daims de Nara",
+   "erreur": false,
+   "texte": "On ne leur donne que les biscuits vendus sur place (shika senbei). Ce sont des animaux sauvages : ils peuvent mordre, donner des coups de tête ou pousser, surtout quand on fait semblant de leur donner à manger. Montrez les mains vides quand vous n'avez plus rien, et rangez cartes et papiers."
+  },
+  {
+   "id": "especes",
+   "emoji": "🏧",
+   "titre": "Garder des espèces",
+   "erreur": false,
+   "texte": "Les cartes sont de plus en plus acceptées, mais beaucoup de petits restaurants, temples, stands et casiers ne prennent que le liquide. Les distributeurs des 7-Eleven et de la Poste japonaise (Japan Post) acceptent les cartes étrangères."
+  },
+  {
+   "id": "taxi",
+   "emoji": "🚕",
+   "titre": "Taxi : la porte s'ouvre toute seule",
+   "erreur": true,
+   "texte": "La porte arrière gauche s'ouvre et se ferme automatiquement : ne la touchez pas. Montrez l'adresse écrite en japonais (bouton « Montrer en grand » de la fiche hôtel). Pas de pourboire."
+  },
+  {
+   "id": "toilettes",
+   "emoji": "🚻",
+   "titre": "Toilettes",
+   "erreur": false,
+   "texte": "Le papier toilette va dans la cuvette. Pour tirer la chasse : 流す (nagasu) ou 大 / 小 ; le bouton 止 (tomeru) arrête le jet. Attention au bouton d'appel d'urgence (呼出 yobidashi), souvent rouge."
+  },
+  {
+   "id": "bruit",
+   "emoji": "🤫",
+   "titre": "Discrétion",
+   "erreur": false,
+   "texte": "On évite de parler fort, de se moucher bruyamment en public (on se mouche discrètement, à l'écart) et de téléphoner dans les lieux fermés. Si vous êtes enrhumé, portez un masque : c'est une marque de politesse."
+  },
+  {
+   "id": "fumer",
+   "emoji": "🚭",
+   "titre": "Fumer dans la rue",
+   "erreur": false,
+   "texte": "Il est interdit de fumer en marchant dans beaucoup de quartiers de Tokyo, Kyoto ou Osaka ; on fume uniquement dans les espaces fumeurs signalés (喫煙所)."
+  }
+ ],
+ "escalators": {
+  "villes": {
+   "tokyo": "gauche",
+   "yokohama": "gauche",
+   "kamakura": "gauche",
+   "hakone": "gauche",
+   "kawaguchiko": "gauche",
+   "nikko": "gauche",
+   "hitachi": "gauche",
+   "kawagoe": "immobile",
+   "nagoya": "immobile",
+   "osaka": "droite",
+   "kobe": "droite",
+   "nara": "droite",
+   "uji": "droite",
+   "himeji": "droite",
+   "koyasan": "droite",
+   "kyoto": "kyoto",
+   "hiroshima": "gauche",
+   "miyajima": "gauche",
+   "naoshima": "gauche",
+   "kanazawa": "gauche",
+   "shirakawago": "gauche",
+   "takayama": "gauche",
+   "nagano": "gauche",
+   "matsumoto": "gauche"
+  },
+  "textes": {
+   "gauche": "on se tient à gauche, la droite est laissée à ceux qui marchent (coutume du Kanto et de la plupart des régions)",
+   "droite": "on se tient à droite, la gauche est laissée à ceux qui marchent (coutume du Kansai)",
+   "kyoto": "coutume du Kansai, on se tient à droite, mais avec les touristes c'est souvent mélangé : faites comme les gens devant vous",
+   "immobile": "règlement local : on reste immobile, des deux côtés (on ne marche pas sur les escalators)",
+   "aeroport": "les aéroports demandent de rester immobile, des deux côtés"
+  },
+  "general": "Escalators : à Tokyo on se tient à gauche, dans le Kansai (Osaka, Kyoto, Nara, Kobe) à droite. Nagoya et la préfecture de Saitama (Kawagoe) demandent par règlement de rester immobile des deux côtés. Dans le doute, faites comme les gens devant vous ; avec des valises, restez immobile et tenez la rampe."
+ },
+ "heures_pointe": "Heures de pointe (jours de semaine) : le matin environ 7 h – 9 h 30, pic vers 8 h – 8 h 30 vers le centre de Tokyo et d'Osaka ; le soir environ 17 h – 19 h 30. Évitez ces créneaux avec des valises (lignes JR Yamanote, Chuo, Saikyo, Tozai… très chargées à Tokyo). C'est bien plus calme entre 9 h 30 et 16 h 30, ainsi que le week-end. Le matin en semaine, certaines voitures sont réservées aux femmes (marquage rose).",
+ "plans": [
+  {
+   "id": "tokyo-metro-toei-fr",
+   "villes": [
+    "tokyo"
+   ],
+   "titre": "Tokyo : métro (Tokyo Metro + Toei), en français",
+   "source": "Toei Transportation",
+   "pdf": "https://www.kotsu.metro.tokyo.jp/eng/services/pdf/sub_map_fra.pdf",
+   "page": "https://www.kotsu.metro.tokyo.jp/eng/maps/subway/"
+  },
+  {
+   "id": "tokyo-metro-en",
+   "villes": [
+    "tokyo"
+   ],
+   "titre": "Tokyo : métro avec numéros de stations (anglais)",
+   "source": "Tokyo Metro",
+   "pdf": "https://www.tokyometro.jp/station/pdf/202305/202305_number_en.pdf",
+   "page": "https://www.tokyometro.jp/en/subwaymap/index.html"
+  },
+  {
+   "id": "osaka-reseau",
+   "villes": [
+    "osaka",
+    "kobe",
+    "nara"
+   ],
+   "titre": "Osaka : tout le réseau (Osaka Metro, JR, lignes privées)",
+   "source": "Osaka Convention & Tourism Bureau",
+   "pdf": "https://osaka-info.jp/common/img/information/pamphlet/osaka_route_map.pdf",
+   "page": "https://osaka-info.jp/en/information/area-map-download/"
+  },
+  {
+   "id": "kyoto-navi-1",
+   "villes": [
+    "kyoto",
+    "uji"
+   ],
+   "titre": "Kyoto : bus et métro vers les sites (Subway & Bus Navi, recto)",
+   "source": "Kyoto City Transportation Bureau",
+   "pdf": "https://www2.city.kyoto.lg.jp/kotsu/webguide/files/tikabusnavi/en_tikabusnavi_1.pdf",
+   "page": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/comm/routemap.html"
+  },
+  {
+   "id": "kyoto-navi-2",
+   "villes": [
+    "kyoto",
+    "uji"
+   ],
+   "titre": "Kyoto : plan complet des bus et du métro (verso)",
+   "source": "Kyoto City Transportation Bureau",
+   "pdf": "https://www2.city.kyoto.lg.jp/kotsu/webguide/files/tikabusnavi/en_tikabusnavi_2.pdf",
+   "page": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/comm/routemap.html"
+  },
+  {
+   "id": "hiroshima-tram",
+   "villes": [
+    "hiroshima",
+    "miyajima"
+   ],
+   "titre": "Hiroshima : tramway (Hiroden), anglais",
+   "source": "Hiroshima Electric Railway",
+   "pdf": "https://www.hiroden.co.jp/train/route-guide/pdf/map-english.pdf",
+   "page": "https://www.hiroden.co.jp/en/"
+  },
+  {
+   "id": "kansai-jr",
+   "villes": [
+    "osaka",
+    "kyoto",
+    "kobe",
+    "nara",
+    "himeji",
+    "uji"
+   ],
+   "titre": "Kansai : plans et horaires JR West",
+   "source": "JR West",
+   "pdf": "",
+   "page": "https://www.westjr.co.jp/global/en/timetable/"
+  }
+ ],
+ "bagages": {
+  "intro": "Au Japon, on envoie facilement ses valises d'un hôtel à l'autre (宅急便 takkyūbin, « TA-Q-BIN » chez Yamato, le chat noir) : on voyage dans le shinkansen avec un simple sac de jour, et la valise arrive en général le lendemain.",
+  "etapes": [
+   "La veille au soir ou le matin, à la réception de l'hôtel (ou dans un konbini) : demandez « takkyūbin onegaishimasu » et remplissez le bordereau avec l'adresse et le téléphone de l'hôtel suivant, le nom du client et la date d'arrivée.",
+   "Livraison en général le lendemain entre grandes villes (souvent l'après-midi ou le soir) : envoyez la valise la veille de votre départ pour la retrouver à l'hôtel suivant le jour de votre arrivée. Sinon, prévoyez une nuit avec le sac de jour.",
+   "Pour l'aéroport du retour, envoyez la valise 2 jours avant le vol (comptoir TA-Q-BIN de l'aéroport).",
+   "Notez le numéro de suivi (10 ou 12 chiffres, en haut à droite du bordereau) dans l'appli."
+  ],
+  "prix": "Repère 2026 : environ 2 500 à 2 700 ¥ par valise standard (taille 160 : longueur + largeur + hauteur ≤ 160 cm, ≤ 25 kg) entre Tokyo et Kyoto/Osaka ; supplément pour l'aéroport. Maximum 200 cm et 30 kg par bagage. Paiement en espèces ou carte selon le lieu.",
+  "conseils": [
+   "Gardez dans le sac de jour : passeports, médicaments, chargeurs, une tenue et la trousse de toilette pour la nuit sans valise.",
+   "Batteries externes, briquets, bombes aérosol et objets dangereux sont interdits dans les envois.",
+   "Livraison le jour même possible depuis certains aéroports (Kansai, Haneda) vers les hôtels du centre si l'on dépose la valise le matin.",
+   "Shinkansen Tokaido / Sanyo / Kyushu : une valise de plus de 160 cm (3 dimensions) demande une place réservée avec espace bagages ; l'envoi évite ce souci."
+  ],
+  "suivi": "https://www.kuronekoyamato.co.jp/en/",
+  "phrase_ja": "宅急便で次のホテルに送りたいです。",
+  "phrase_fr": "Je voudrais envoyer cette valise à l'hôtel suivant en takkyūbin."
+ },
+ "tampons": {
+  "intro": "Deux collections à ne pas confondre : les tampons de gares et de sites (gratuits) et les goshuin des temples et sanctuaires (calligraphie sacrée, payante).",
+  "gares": "Tampons de gares et de sites (駅スタンプ eki stamp) : gratuits, en libre-service près des portiques, des offices de tourisme, châteaux, musées, belvédères… Encre souvent rouge ou bleue : apportez un carnet à part (ou des cartes) et tamponnez droit, sans appuyer trop longtemps. Les enfants adorent en faire une chasse au trésor.",
+  "goshuin": "Goshuin (御朱印) : calligraphie et sceau rouge faits à la main par un moine ou un prêtre, preuve de visite. On prie d'abord, puis on se présente au bureau (納経所 nōkyōsho / 授与所) en tendant son carnet ouvert à la bonne page. Prix habituel : 300 à 500 ¥, parfois plus pour les éditions spéciales ; préparez la monnaie. Il faut un carnet dédié (御朱印帳 goshuinchō, environ 1 000 à 2 500 ¥, vendu dans les grands temples) : n'y mettez jamais de tampons touristiques. Quand il y a foule, on vous donne parfois une feuille déjà écrite (書き置き kakioki) à coller.",
+  "trouver": [
+   "Repérez les panneaux スタンプ (sutanpu) ou 記念スタンプ (tampon souvenir) ; pour les goshuin : 御朱印 (goshuin).",
+   "Gares : en général juste à l'extérieur des portiques principaux ou près du guichet JR ; parfois à l'intérieur, ou gardé derrière le guichet (il suffit de demander).",
+   "Sites : guichet, accueil, boutique, sortie du parcours, ou office de tourisme le plus proche.",
+   "Goshuin : bureau des amulettes ou des goshuin, souvent près du pavillon principal ; fermé en fin d'après-midi.",
+   "Faites d'abord un essai sur une feuille : les tampons anciens marquent parfois peu. Notez le lieu et la date à côté.",
+   "Le site stamp.funakiya.com recense les tampons des gares avec leur emplacement (en japonais, avec photos)."
+  ],
+  "phrases": [
+   {
+    "ja": "スタンプはどこですか？",
+    "fr": "Où est le tampon ? (sutanpu wa doko desu ka)"
+   },
+   {
+    "ja": "御朱印をお願いします。",
+    "fr": "Un goshuin, s'il vous plaît. (goshuin o onegaishimasu)"
+   }
+  ],
+  "ou": {
+   "osaka-chateau": [
+    "chateau",
+    "Tampon des « 100 châteaux du Japon » (日本100名城) et souvent un tampon touristique : en général à l'entrée ou au guichet de la visite ; il faut parfois avoir payé l'entrée pour y accéder."
+   ],
+   "osaka-sumiyoshi": [
+    "goshuin",
+    "Goshuin au bureau des amulettes (授与所 juyosho) ou des goshuin (御朱印所 / 納経所 nōkyōsho), en général près du pavillon principal ; bureau ouvert environ de 9 h à 16 h 30 – 17 h."
+   ],
+   "kyoto-fushimi": [
+    "goshuin",
+    "Goshuin au bureau situé à côté du pavillon principal (本殿 honden), au pied de la montagne, avant les torii ; d'autres petits sanctuaires en proposent en montant. Tampon touristique (記念スタンプ) : souvent au guichet, à l'accueil, à la boutique ou à l'office de tourisme le plus proche. Gare JR Inari juste en face : tampon de gare."
+   ],
+   "kyoto-kinkakuji": [
+    "goshuin",
+    "Goshuin au bureau sur le parcours de visite, vers la sortie (après le Pavillon d'or) ; billet d'entrée nécessaire."
+   ],
+   "kyoto-arashiyama": [
+    "site",
+    "Tampons dans les gares de Saga-Arashiyama (JR), d'Arashiyama (Randen, Hankyu) et du train Torokko. Goshuin au temple Tenryū-ji. Tampon touristique (記念スタンプ) : souvent au guichet, à l'accueil, à la boutique ou à l'office de tourisme le plus proche."
+   ],
+   "kyoto-kiyomizu": [
+    "goshuin",
+    "Plusieurs goshuin possibles selon les pavillons (le temple fait partie de plusieurs pèlerinages) : demandez au bureau principal sur le parcours. Le matin il y a moins de monde."
+   ],
+   "kyoto-ginkakuji": [
+    "goshuin",
+    "Goshuin au bureau sur le parcours de visite ; billet d'entrée nécessaire."
+   ],
+   "kyoto-nijo": [
+    "chateau",
+    "Tampon des « 100 châteaux du Japon » (日本100名城) et souvent un tampon touristique : en général à l'entrée ou au guichet de la visite ; il faut parfois avoir payé l'entrée pour y accéder."
+   ],
+   "nara-todaiji": [
+    "goshuin",
+    "Goshuin au bureau du Grand Bouddha (Daibutsuden) et dans les pavillons annexes (Nigatsu-dō, Hokke-dō). Tampon touristique (記念スタンプ) : souvent au guichet, à l'accueil, à la boutique ou à l'office de tourisme le plus proche."
+   ],
+   "nara-kasuga": [
+    "goshuin",
+    "Goshuin au bureau des amulettes (授与所 juyosho) ou des goshuin (御朱印所 / 納経所 nōkyōsho), en général près du pavillon principal ; bureau ouvert environ de 9 h à 16 h 30 – 17 h."
+   ],
+   "uji-byodoin": [
+    "goshuin",
+    "Goshuin au bureau du temple, dans l'enceinte ; tampon au musée Hōshōkan. Tampon touristique (記念スタンプ) : souvent au guichet, à l'accueil, à la boutique ou à l'office de tourisme le plus proche."
+   ],
+   "himeji-chateau": [
+    "chateau",
+    "Tampon des « 100 châteaux du Japon » (日本100名城) et souvent un tampon touristique : en général à l'entrée ou au guichet de la visite ; il faut parfois avoir payé l'entrée pour y accéder."
+   ],
+   "hiroshima-memorial": [
+    "site",
+    "Tampon commémoratif au musée de la Paix (hall d'entrée) ; tampons aussi au Dôme et à l'office de tourisme du parc (Rest House)."
+   ],
+   "hiroshima-chateau": [
+    "chateau",
+    "Tampon des « 100 châteaux du Japon » (日本100名城) et souvent un tampon touristique : en général à l'entrée ou au guichet de la visite ; il faut parfois avoir payé l'entrée pour y accéder."
+   ],
+   "miyajima-itsukushima": [
+    "goshuin",
+    "Goshuin en général près de la sortie de la galerie du sanctuaire (le parcours se fait dans un seul sens). Tampon au terminal des ferries de Miyajima."
+   ],
+   "miyajima-misen": [
+    "site",
+    "Tampons dans les stations du téléphérique (Momijidani, Shishiiwa) ; goshuin au temple Daishō-in au pied du mont."
+   ],
+   "kanazawa-ninja": [
+    "goshuin",
+    "Goshuin au bureau des amulettes (授与所 juyosho) ou des goshuin (御朱印所 / 納経所 nōkyōsho), en général près du pavillon principal ; bureau ouvert environ de 9 h à 16 h 30 – 17 h. Visite guidée sur réservation."
+   ],
+   "hakone-boucle": [
+    "site",
+    "Nombreux tampons sur la boucle : gares du Tozan, du funiculaire et du téléphérique (Ōwakudani, Tōgendai), bateaux pirates. Goshuin au sanctuaire de Hakone (torii dans le lac)."
+   ],
+   "kawaguchiko-chureito": [
+    "site",
+    "Goshuin au sanctuaire Arakura Fuji Sengen, au pied des escaliers de la pagode. Tampon à la gare de Kawaguchiko et de Shimoyoshida."
+   ],
+   "tokyo-sensoji": [
+    "goshuin",
+    "Goshuin au bureau des goshuin dans l'enceinte (file d'attente fréquente en journée) ; le sanctuaire voisin Asakusa-jinja en propose aussi. Tampon à l'office de tourisme d'Asakusa (en face de la porte Kaminarimon)."
+   ],
+   "tokyo-harajuku": [
+    "goshuin",
+    "Goshuin au sanctuaire Meiji (Meiji Jingū), au bureau près du pavillon principal ; horaires plus longs en été. Tampon à la gare JR de Harajuku."
+   ],
+   "kamakura-daibutsu": [
+    "goshuin",
+    "Goshuin au bureau du temple Kōtoku-in (Grand Bouddha). Tampon à la gare de Hase (Enoden)."
+   ],
+   "kamakura-hasedera": [
+    "goshuin",
+    "Goshuin au bureau des amulettes (授与所 juyosho) ou des goshuin (御朱印所 / 納経所 nōkyōsho), en général près du pavillon principal ; bureau ouvert environ de 9 h à 16 h 30 – 17 h."
+   ],
+   "kamakura-enoshima": [
+    "site",
+    "Goshuin au sanctuaire d'Enoshima ; tampons aux gares d'Enoshima (Enoden) et de Katase-Enoshima (Odakyu)."
+   ],
+   "nikko-toshogu": [
+    "goshuin",
+    "Goshuin au bureau du Tōshōgū et dans les sanctuaires voisins (Futarasan, Taiyūin). Tampon à la gare JR et Tōbu de Nikkō."
+   ],
+   "nagoya-chateau": [
+    "chateau",
+    "Tampon des « 100 châteaux du Japon » (日本100名城) et souvent un tampon touristique : en général à l'entrée ou au guichet de la visite ; il faut parfois avoir payé l'entrée pour y accéder."
+   ],
+   "nagoya-osu": [
+    "goshuin",
+    "Goshuin au temple Ōsu Kannon, à l'entrée du quartier."
+   ],
+   "nagoya-atsuta": [
+    "goshuin",
+    "Goshuin au bureau des amulettes (授与所 juyosho) ou des goshuin (御朱印所 / 納経所 nōkyōsho), en général près du pavillon principal ; bureau ouvert environ de 9 h à 16 h 30 – 17 h."
+   ],
+   "nagano-zenkoji": [
+    "goshuin",
+    "Goshuin au bureau des amulettes (授与所 juyosho) ou des goshuin (御朱印所 / 納経所 nōkyōsho), en général près du pavillon principal ; bureau ouvert environ de 9 h à 16 h 30 – 17 h. Tampon à la gare JR de Nagano."
+   ],
+   "nagano-togakushi": [
+    "site",
+    "Goshuin aux sanctuaires de Togakushi (Hōkōsha, Chūsha, Okusha)."
+   ],
+   "matsumoto-chateau": [
+    "chateau",
+    "Tampon des « 100 châteaux du Japon » (日本100名城) et souvent un tampon touristique : en général à l'entrée ou au guichet de la visite ; il faut parfois avoir payé l'entrée pour y accéder."
+   ],
+   "koyasan-okunoin": [
+    "goshuin",
+    "Goshuin au bureau près du mausolée de Kōbō Daishi (Gobyō), au fond du cimetière."
+   ],
+   "koyasan-kongobuji": [
+    "goshuin",
+    "Goshuin au bureau des amulettes (授与所 juyosho) ou des goshuin (御朱印所 / 納経所 nōkyōsho), en général près du pavillon principal ; bureau ouvert environ de 9 h à 16 h 30 – 17 h."
+   ],
+   "kawagoe-vieille-ville": [
+    "site",
+    "Goshuin au sanctuaire Hikawa et au temple Kita-in ; tampon à l'office de tourisme de la gare de Kawagoe."
+   ]
+  },
+  "gares_villes": {
+   "tokyo": [
+    "Gare de Tokyo (東京駅)",
+    "Sortie Marunouchi Sud (丸の内南口), au rez-de-chaussée, sous la coupole, à gauche en sortant des portiques. Le métro Tokyo Metro propose aussi des tampons commémoratifs dans ses bureaux d'information."
+   ],
+   "kyoto": [
+    "Gare de Kyoto (京都駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "osaka": [
+    "Gare d'Osaka / Shin-Osaka (大阪駅・新大阪駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "nara": [
+    "Gare JR / Kintetsu de Nara (奈良駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "uji": [
+    "Gare JR / Keihan d'Uji (宇治駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "naoshima": [
+    "Gare JR d'Uno (宇野駅) et terminal de Miyanoura (海の駅なおしま)",
+    "Tampon à la gare d'Uno, puis au terminal des ferries de Miyanoura (« Umi no Eki »), au comptoir d'information."
+   ],
+   "himeji": [
+    "Gare de Himeji (姫路駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "hiroshima": [
+    "Gare de Hiroshima (広島駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "miyajima": [
+    "Gare de Miyajimaguchi et terminal des ferries (宮島口)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "kanazawa": [
+    "Gare de Kanazawa (金沢駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "shirakawago": [
+    "Terminal des bus de Shirakawa-go (白川郷)",
+    "Tampon touristique au terminal des bus et à l'office de tourisme du village."
+   ],
+   "takayama": [
+    "Gare de Takayama (高山駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "kawaguchiko": [
+    "Gare de Kawaguchiko (河口湖駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "hakone": [
+    "Gare de Hakone-Yumoto (箱根湯本駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "kamakura": [
+    "Gare de Kamakura (鎌倉駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "nikko": [
+    "Gare de Nikkō (日光駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "nagoya": [
+    "Gare de Nagoya (名古屋駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "nagano": [
+    "Gare de Nagano (長野駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "matsumoto": [
+    "Gare de Matsumoto (松本駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "kobe": [
+    "Gare de Sannomiya / Shin-Kobe (三ノ宮・新神戸)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "koyasan": [
+    "Gare de Gokurakubashi / téléphérique de Kōya-san (極楽橋・高野山)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "yokohama": [
+    "Gare de Yokohama (横浜駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "kawagoe": [
+    "Gare de Kawagoe (川越駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ],
+   "hitachi": [
+    "Gare de Katsuta (勝田駅)",
+    "Cherchez une table avec un tampon et un encreur (panneau スタンプ / 駅スタンプ), en général juste à l'extérieur des portiques principaux ou près du guichet JR (みどりの窓口 Midori no madoguchi). Sinon, demandez au guichet."
+   ]
+  },
+  "lien": "https://stamp.funakiya.com/"
+ }
 }
